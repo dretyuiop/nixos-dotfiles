@@ -1,0 +1,17 @@
+[Desktop Entry]
+Name=Window Geometry Information
+Comment=An on screen display showing window geometry
+
+Icon=preferences-system-windows-move
+
+X-Plasma-API=declarativescript
+X-Plasma-MainScript=ui/main.qml
+
+X-KDE-PluginInfo-Author=Richard Qian
+X-KDE-PluginInfo-Email=richWiki101@gmail.com
+X-KDE-PluginInfo-Name=windowgeometryinfo
+X-KDE-PluginInfo-Version=1.0
+
+X-KDE-PluginInfo-License=GPL
+X-KDE-ServiceTypes=KWin/Script
+Type=Service
