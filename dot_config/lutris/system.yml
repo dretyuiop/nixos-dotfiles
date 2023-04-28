@@ -1,0 +1,4 @@
+system:
+  mangohud: true
+  prime: true
+  pulse_latency: true

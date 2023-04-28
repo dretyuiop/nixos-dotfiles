@@ -1,0 +1,17 @@
+[$Version]
+update_info=spectacle_clipboard.upd:clipboard-settings-change,spectacle_rememberregion.upd:spectacle-migrate-rememberregion
+
+[General]
+clipboardGroup=PostScreenshotCopyImage
+
+[GuiConfig]
+window-position=0,0
+
+[KFileDialog Settings]
+Recent Files[$e]=dmesg.png,file:$HOME/Pictures/dmesg.png
+Recent URLs[$e]=file:$HOME/Pictures/
+detailViewIconSize=16
+
+[Save]
+lastSaveAsLocation=file:///home/cch/Pictures/dmesg.png
+lastSaveLocation=file:///home/cch/Pictures/Screenshot_20230428_014815.png
