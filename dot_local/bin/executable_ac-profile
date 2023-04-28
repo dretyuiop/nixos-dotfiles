@@ -1,0 +1,8 @@
+#!/bin/sh
+
+#set tctl limit
+sudo ryzenadj -f 85
+
+#start coolercontrol
+#systemctl start coolercontrold
+

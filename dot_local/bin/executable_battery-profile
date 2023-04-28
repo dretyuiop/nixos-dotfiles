@@ -1,0 +1,7 @@
+#!/bin/sh
+
+#stop baloo
+#balooctl disable
+
+#set tctl limit
+#sudo ryzenadj -f 85
