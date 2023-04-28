@@ -1,0 +1,84 @@
+MenuBar=Disabled
+
+[$Version]
+update_info=dolphin_detailsmodesettings.upd:rename-leading-padding
+
+[ContextMenu]
+ShowAddToPlaces=false
+ShowDuplicateHere=false
+ShowOpenInNewWindow=false
+ShowViewMode=false
+
+[CreateDialog]
+LastMimeType=application/zip
+
+[DetailsMode]
+DirectorySizeCount=false
+
+[ExtractDialog]
+1920x1080 screen: Height=680
+1920x1080 screen: Width=1280
+DirHistory[$e]=$HOME/Downloads/,$HOME/Games/,$HOME/Desktop/
+eDP-1 Height 1920x1080 eDP-1=560
+eDP-1 Width 1920x1080 eDP-1=1280
+
+[General]
+AutoExpandFolders=true
+BrowseThroughArchives=true
+ConfirmClosingMultipleTabs=false
+GlobalViewProps=false
+HomeUrl=/home/cch/Downloads
+OpenExternallyCalledFolderInNewTab=true
+OpenNewTabAfterLastTab=true
+RememberOpenedTabs=false
+ShowFullPath=true
+ShowToolTips=true
+SortingChoice=CaseSensitiveSorting
+SplitView=true
+UseTabForSwitchingSplitView=true
+Version=202
+ViewPropsTimestamp=2023,4,1,18,15,17.206
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+Recent Files[$e]=file:$HOME
+Recent URLs[$e]=file:$HOME/Desktop/,file:$HOME/Games/,file:$HOME/Downloads/
+detailViewIconSize=16
+
+[KPropertiesDialog]
+1707x960 screen: Height=576
+1707x960 screen: Width=493
+1920x1080 screen: Height=500
+1920x1080 screen: Width=416
+eDP Height 1707x960 eDP=458
+eDP Height 1920x1080 eDP=532
+eDP Width 1707x960 eDP=413
+eDP Width 1920x1080 eDP=438
+eDP-1 Height 1707x960 eDP-1=616
+eDP-1 Height 1920x1080 eDP-1=576
+eDP-1 Width 1707x960 eDP-1=480
+eDP-1 Width 1920x1080 eDP-1=493
+eDP-2 Height 1920x1080 eDP-2=444
+eDP-2 Width 1920x1080 eDP-2=403
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+
+[MainWindow][Toolbar mainToolBar]
+ToolButtonStyle=IconOnly
+
+[Open-with settings]
+CompletionMode=1
+History=kate,ark,editor,only,code,mars,/home/cch/Games/lutris/runners/wine/lutris-7.2-2-x86_64/bin/wine
+
+[PreviewSettings]
+Plugins=appimagethumbnail,audiothumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,svgthumbnail
+
+[ViewPropertiesDialog]
+1920x1080 screen: Height=516
+1920x1080 screen: Width=415
+
+[kuick-copy]
+Paths[$e]=/usr/local/bin

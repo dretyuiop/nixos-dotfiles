@@ -1,0 +1,51 @@
+[ActionsWidget]
+ColumnState=AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAmoAAAACAQAAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAACAAAA+gAAAAEAAAAAAAABcAAAAAEAAAAAAAAD6AAAAABk
+
+[ConfigDialog]
+1920x1080 screen: Height=550
+1920x1080 screen: Width=835
+
+[CreateDialog]
+LastMimeType=application/x-7z-compressed
+
+[EditActionDialog]
+1920x1080 screen: Height=560
+1920x1080 screen: Width=543
+ColumnState=AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgcAAAADAAEAAQAAAAAAAAAAAAAAAGT/////AAAAAQAAAAAAAAADAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAABPwAAAAEAAAAAAAAD6AAAAABk
+
+[General]
+Number of Actions=0
+
+[KFileDialog Settings]
+Recent Files[$e]=SOTV.png,file:$HOME/Games/Symphony_of_the_Void-0.28-pc/SOTV-app.png,file:$HOME/Games/Symphony_of_the_Void-0.28-pc/SOTV.png
+Recent URLs[$e]=file:$HOME/Games/Symphony_of_the_Void-0.28-pc/,file:$HOME/
+detailViewIconSize=16
+
+[KPropertiesDialog]
+1920x1080 screen: Height=569
+1920x1080 screen: Width=436
+eDP Height 1920x1080 eDP=491
+eDP Width 1920x1080 eDP=413
+eDP-1 Height 1920x1080 eDP-1=569
+eDP-1 Width 1920x1080 eDP-1=430
+eDP-2 Height 1920x1080 eDP-2=529
+eDP-2 Width 1920x1080 eDP-2=410
+
+[Open-with settings]
+CompletionMode=1
+History=kate
+
+[PlasmaViews][Panel 2]
+alignment=1
+floating=1
+panelOpacity=2
+
+[PlasmaViews][Panel 2][Defaults]
+thickness=43
+
+[ScreenConnectors]
+0=eDP
+1=:0.0
+
+[Updates]
+performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/containmentactions_middlebutton.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/digitalclock_rename_timezonedisplay_key.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/klipper_clear_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/maintain_existing_desktop_icon_sizes.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/no_middle_click_paste_on_panels.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/systemloadviewer_systemmonitor.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/unlock_widgets.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/digitalclock_migrate_font_settings.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/keyboardlayout_migrateiconsetting.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/keyboardlayout_remove_shortcut.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/00-start-here-2.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/mediaframe_migrate_useBackground_setting.js

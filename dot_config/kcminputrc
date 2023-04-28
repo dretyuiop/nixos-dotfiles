@@ -1,0 +1,21 @@
+[$Version]
+update_info=delete_cursor_old_default_size.upd:DeleteCursorOldDefaultSize,kcminputrc_fix_botched_5_21_0.upd:kcminputrc_fix_botched_5_21_0_pre,kcminputrc_fix_botched_5_21_0.upd:kcminputrc_fix_botched_5_21_0,kcminputrc_repeat.upd:kcminputrc_migrate_key_repeat
+
+[Libinput][1267][12670][DELL0A6E:00 04F3:317E Touchpad]
+NaturalScroll=true
+ScrollFactor=0.75
+TapToClick=true
+
+[Libinput][1267][12670][DELL0B5E:00 04F3:317E Touchpad]
+NaturalScroll=true
+PointerAcceleration=0.400
+PointerAccelerationProfile=1
+ScrollFactor=0.75
+TapToClick=true
+
+[Mouse]
+X11LibInputXAccelProfileFlat=false
+cursorTheme=breeze_cursors
+
+[Tmp]
+update_info=delete_cursor_old_default_size.upd:DeleteCursorOldDefaultSize

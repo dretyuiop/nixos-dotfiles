@@ -1,0 +1,94 @@
+1920x1080 screen: Window-Maximized=true
+State=AAAA/wAAAAD9AAAAAQAAAAAAAAAAAAAAAPwCAAAAAvsAAAAiAFEAdQBpAGMAawBDAG8AbQBtAGEAbgBkAHMARABvAGMAawAAAAAA/////wAAAYgBAAAD+wAAABwAUwBTAEgATQBhAG4AYQBnAGUAcgBEAG8AYwBrAAAAAAD/////AAABJQEAAAMAAAeAAAADlgAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAABwAcwBlAHMAcwBpAG8AbgBUAG8AbwBsAGIAYQByAQAAAJL/////AAAAAAAAAAA=
+eDP-1 Window-Maximized 1920x1080 eDP-1=true
+
+[Desktop Entry]
+DefaultProfile=terminal.profile
+
+[General]
+ConfigVersion=1
+
+[KFileDialog Settings]
+Recent Files[$e]=ryzenadj-time-start.txt,file:$HOME/Desktop/ryzenadj-time-start.txt
+Recent URLs[$e]=file:$HOME/Desktop/
+detailViewIconSize=16
+
+[KonsoleWindow]
+FocusFollowsMouse=true
+ShowWindowTitleOnTitleBar=true
+
+[MainWindow]
+1280x720 screen: Window-Maximized=true
+1536x864 screen: Height=98
+1536x864 screen: Width=200
+1600x900 screen: Height=98
+1600x900 screen: Width=200
+1670x939 screen: Height=98
+1670x939 screen: Width=200
+1707x960 screen: Height=887
+1707x960 screen: Width=1707
+1707x960 screen: Window-Maximized=true
+1707x960 screen: XPosition=0
+1707x960 screen: YPosition=28
+1745x982 screen: Window-Maximized=true
+1829x1029 screen: Window-Maximized=true
+1920x1080 screen: Height=990
+1920x1080 screen: Width=472
+1920x1080 screen: Window-Maximized=true
+2021x1137 screen: Window-Maximized=true
+2259x1271 screen: Window-Maximized=true
+640x360 screen: Window-Maximized=true
+960x540 screen: Window-Maximized=true
+MenuBar=Enabled
+RestorePositionForNextInstance=false
+State=AAAA/wAAAAD9AAAAAQAAAAAAAAEYAAADxPwCAAAAAvsAAAAiAFEAdQBpAGMAawBDAG8AbQBtAGEAbgBkAHMARABvAGMAawAAAAAiAAADxAAAAYgBAAAD+wAAABwAUwBTAEgATQBhAG4AYQBnAGUAcgBEAG8AYwBrAAAAACIAAAPEAAABJQEAAAMAAAeAAAADxAAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAABwAcwBlAHMAcwBpAG8AbgBUAG8AbwBsAGIAYQByAAAAAJL/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+eDP=eDP
+eDP Height 1707x960 eDP=387
+eDP Height 1920x1080 eDP=1007
+eDP Width 1707x960 eDP=703
+eDP Width 1920x1080 eDP=1920
+eDP Window-Maximized 1707x960 eDP=true
+eDP Window-Maximized 1920x1080 eDP=true
+eDP XPosition 1707x960 eDP=501
+eDP XPosition 1920x1080 eDP=0
+eDP YPosition 1707x960 eDP=281
+eDP YPosition 1920x1080 eDP=29
+eDP-1=eDP-1
+eDP-1 Height 1707x960 eDP-1=887
+eDP-1 Height 1920x1080 eDP-1=1000
+eDP-1 Width 1707x960 eDP-1=1707
+eDP-1 Width 1920x1080 eDP-1=1920
+eDP-1 Window-Maximized 1707x960 eDP-1=true
+eDP-1 Window-Maximized 1920x1080 eDP-1=true
+eDP-1 XPosition 1707x960 eDP-1=0
+eDP-1 XPosition 1920x1080 eDP-1=0
+eDP-1 YPosition 1707x960 eDP-1=28
+eDP-1 YPosition 1920x1080 eDP-1=29
+eDP-1-1=eDP-1-1
+eDP-1-1 Height 1920x1080 eDP-1-1=782
+eDP-1-1 Width 1920x1080 eDP-1-1=1244
+eDP-1-1 Window-Maximized 1920x1080 eDP-1-1=true
+eDP-1-1 XPosition 1920x1080 eDP-1-1=338
+eDP-1-1 YPosition 1920x1080 eDP-1-1=138
+eDP-2=eDP-2
+eDP-2 Height 1920x1080 eDP-2=554
+eDP-2 Width 1920x1080 eDP-2=911
+eDP-2 XPosition 1920x1080 eDP-2=504
+eDP-2 YPosition 1920x1080 eDP-2=248
+
+[Notification Messages]
+CloseAllEmptyTabs=true
+
+[SaveHistory Settings]
+Recent URLs[$e]=file:$HOME/Desktop
+
+[SplitView]
+SplitViewVisibility=AlwaysHideSplitHeader
+
+[TabBar]
+CloseTabOnMiddleMouseButton=true
+TabBarPosition=Top
+
+[UiSettings]
+ColorScheme=
