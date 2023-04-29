@@ -158,7 +158,7 @@ toolBarFont=Noto Sans,11,-1,5,50,0,0,0,0,0
 widgetStyle=Breeze
 
 [Icons]
-Theme=Tela-dracula-dark-old
+Theme=Tela-dracula-dark-v2
 
 [KDE]
 AnimationDurationFactor=0.25

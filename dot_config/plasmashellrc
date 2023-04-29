@@ -35,6 +35,9 @@ eDP-2 Width 1920x1080 eDP-2=410
 CompletionMode=1
 History=kate
 
+[PlasmaTransientsConfig]
+PreloadWeight=42
+
 [PlasmaViews][Panel 2]
 alignment=1
 floating=1
