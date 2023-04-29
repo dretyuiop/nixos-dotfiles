@@ -2,5 +2,5 @@
 
 if [ ! -f "/home/cch/.key.txt" ]; then
     age --decrypt --output "/home/cch/.key.txt" "{{ .chezmoi.sourceDir }}/key.txt.age"
-    chmod 600 "/home/cch/key.txt"
+    chmod 600 "/home/cch/.key.txt"
 fi
