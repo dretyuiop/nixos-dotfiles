@@ -11,7 +11,7 @@ Id_1=6f02df91-c01b-46ad-8481-b70c3aa8eaae
 Id_2=f743f208-f926-4473-b734-56fb6b8a0cc0
 Name_2=New Desktop
 Number=2
-Rows=2
+Rows=1
 
 [Effect-windowview]
 BorderActivateAll=9
@@ -53,6 +53,9 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.4015625},{"width":0.3484375},{"width":0.25}]}
 
 [Tiling][44bea82b-2de0-5111-957d-06ed811de8d0]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][bf274583-4026-542e-848d-884136a4fcb7]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][e688eb74-7230-5d02-a5e0-3b38a54bc04e]

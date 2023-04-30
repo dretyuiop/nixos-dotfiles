@@ -37,7 +37,7 @@ SortingChoice=CaseSensitiveSorting
 SplitView=true
 UseTabForSwitchingSplitView=true
 Version=202
-ViewPropsTimestamp=2023,4,30,16,14,6.065
+ViewPropsTimestamp=2023,4,30,22,23,58.024
 
 [KFileDialog Settings]
 Places Icons Auto-resize=false
@@ -74,7 +74,7 @@ History=kate,ark,editor,only,code,mars,/home/cch/Games/lutris/runners/wine/lutri
 Plugins=appimagethumbnail,audiothumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,svgthumbnail
 
 [ViewPropertiesDialog]
-1920x1080 screen: Height=774
+1920x1080 screen: Height=516
 1920x1080 screen: Width=414
 
 [kuick-copy]
