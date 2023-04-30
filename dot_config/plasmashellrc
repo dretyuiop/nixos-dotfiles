@@ -36,7 +36,7 @@ CompletionMode=1
 History=kate
 
 [PlasmaTransientsConfig]
-PreloadWeight=42
+PreloadWeight=34
 
 [PlasmaViews][Panel 2]
 alignment=1

@@ -14,7 +14,7 @@ ScrollFactor=0.75
 TapToClick=true
 
 [Mouse]
-X11LibInputXAccelProfileFlat=false
+X11LibInputXAccelProfileFlat=true
 cursorTheme=breeze_cursors
 
 [Tmp]

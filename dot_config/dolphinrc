@@ -37,7 +37,7 @@ SortingChoice=CaseSensitiveSorting
 SplitView=true
 UseTabForSwitchingSplitView=true
 Version=202
-ViewPropsTimestamp=2023,4,1,18,15,17.206
+ViewPropsTimestamp=2023,4,30,16,14,6.065
 
 [KFileDialog Settings]
 Places Icons Auto-resize=false
@@ -49,8 +49,8 @@ detailViewIconSize=16
 [KPropertiesDialog]
 1707x960 screen: Height=576
 1707x960 screen: Width=493
-1920x1080 screen: Height=500
-1920x1080 screen: Width=416
+1920x1080 screen: Height=554
+1920x1080 screen: Width=500
 eDP Height 1707x960 eDP=458
 eDP Height 1920x1080 eDP=532
 eDP Width 1707x960 eDP=413
@@ -66,9 +66,6 @@ eDP-2 Width 1920x1080 eDP-2=403
 MenuBar=Disabled
 ToolBarsMovable=Disabled
 
-[MainWindow][Toolbar mainToolBar]
-ToolButtonStyle=IconOnly
-
 [Open-with settings]
 CompletionMode=1
 History=kate,ark,editor,only,code,mars,/home/cch/Games/lutris/runners/wine/lutris-7.2-2-x86_64/bin/wine
@@ -77,8 +74,8 @@ History=kate,ark,editor,only,code,mars,/home/cch/Games/lutris/runners/wine/lutri
 Plugins=appimagethumbnail,audiothumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,svgthumbnail
 
 [ViewPropertiesDialog]
-1920x1080 screen: Height=516
-1920x1080 screen: Width=415
+1920x1080 screen: Height=774
+1920x1080 screen: Width=414
 
 [kuick-copy]
 Paths[$e]=/usr/local/bin

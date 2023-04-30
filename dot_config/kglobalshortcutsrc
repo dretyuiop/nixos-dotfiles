@@ -1,5 +1,6 @@
 [ActivityManager]
 _k_friendly_name=Activity Manager
+switch-to-activity-066c2716-a80a-4b9a-8db7-38de967ca498=none,none,Switch to activity "Default"
 switch-to-activity-1936c494-e478-46cc-9321-04762c2fd5dd=none,none,Switch to activity "Default"
 switch-to-activity-1d7c952e-ecdd-4ead-87d3-7d26b253ea5b=none,none,Switch to activity "Default"
 switch-to-activity-502412b8-144c-4d37-a332-368dcd8fbac4=none,none,Switch to activity "Default"
@@ -41,7 +42,7 @@ _k_friendly_name=Accessibility
 [kcm_touchpad]
 Disable Touchpad=Touchpad Off,Touchpad Off,Disable Touchpad
 Enable Touchpad=Touchpad On,Touchpad On,Enable Touchpad
-Toggle Touchpad=Touchpad Toggle\tMeta+Ctrl+Zenkaku Hankaku,Touchpad Toggle\tMeta+Ctrl+Zenkaku Hankaku,Toggle Touchpad
+Toggle Touchpad=Touchpad Toggle\tMeta+Ctrl+Zenkaku Hankaku,Touchpad Toggle,Toggle Touchpad
 _k_friendly_name=Touchpad
 
 [kded5]

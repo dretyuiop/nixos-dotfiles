@@ -55,6 +55,9 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.4015625},{"width":0.34
 [Tiling][44bea82b-2de0-5111-957d-06ed811de8d0]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][e688eb74-7230-5d02-a5e0-3b38a54bc04e]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Wayland]
 VirtualKeyboardEnabled=true
 

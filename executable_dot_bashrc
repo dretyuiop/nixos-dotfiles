@@ -86,3 +86,4 @@ _open_files_for_editing() {
 ################################################################################
 
 eval "$(starship init bash)"
+eval "$(zoxide init bash)"
