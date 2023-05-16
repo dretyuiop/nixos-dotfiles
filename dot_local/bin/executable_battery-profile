@@ -1,7 +1,3 @@
 #!/bin/sh
 
-#stop baloo
-#balooctl disable
-
-#set tctl limit
-#sudo ryzenadj -f 85
+echo "power" | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/energy_performance_preference

@@ -33,6 +33,11 @@ powerButtonAction=16
 powerDownAction=16
 triggerLidActionWhenExternalMonitorPresent=false
 
+[Battery][RunScript]
+idleTime=600000
+scriptCommand=/home/cch/.local/bin/battery-profile
+scriptPhase=0
+
 [LowBattery]
 icon=battery-low
 

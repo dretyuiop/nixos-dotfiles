@@ -23,7 +23,7 @@ detailViewIconSize=16
 
 [KPropertiesDialog]
 1920x1080 screen: Height=569
-1920x1080 screen: Width=548
+1920x1080 screen: Width=685
 eDP Height 1920x1080 eDP=491
 eDP Width 1920x1080 eDP=413
 eDP-1 Height 1920x1080 eDP-1=569
@@ -42,6 +42,7 @@ PreloadWeight=34
 alignment=1
 floating=1
 panelOpacity=2
+panelVisibility=0
 
 [PlasmaViews][Panel 2][Defaults]
 thickness=43

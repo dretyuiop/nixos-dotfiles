@@ -104,7 +104,7 @@ DialogWidth=720
 
 [Containments][2][Applets][52][Configuration][General]
 iconSpacing=3
-launchers=applications:org.kde.dolphin.desktop,applications:net.lutris.Lutris.desktop,applications:brave-browser.desktop
+launchers=applications:org.kde.dolphin.desktop,applications:brave-browser.desktop
 maxStripes=1
 wheelEnabled=false
 wheelSkipMinimized=false
@@ -182,7 +182,7 @@ PreloadWeight=100
 SystrayContainmentId=8
 
 [Containments][2][ConfigDialog]
-DialogHeight=95
+DialogHeight=83
 DialogWidth=1920
 
 [Containments][2][General]
@@ -202,6 +202,10 @@ wallpaperplugin=org.kde.image
 [Containments][65][ConfigDialog]
 DialogHeight=660
 DialogWidth=880
+
+[Containments][65][General]
+positions={"1920x1080":["2"\\,"16"\\,"desktop:/optional.sh"\\,"1"\\,"2"\\,"desktop:/code.txt"\\,"0"\\,"2"\\,"desktop:/faster-eos.sh"\\,"1"\\,"1"\\,"desktop:/endeavour.sh"\\,"1"\\,"0"\\,"desktop:/BraveSoftware"\\,"0"\\,"1"\\,"desktop:/packages-to-install.txt"\\,"1"\\,"3"\\,"desktop:/Important"\\,"0"\\,"0"]\\,"1536x864":[""]}
+sortMode=-1
 
 [Containments][65][Wallpaper][org.kde.image][General]
 Image=/usr/share/wallpapers/MilkyWay/
@@ -266,7 +270,7 @@ immutability=1
 plugin=org.kde.plasma.vault
 
 [Containments][8][Applets][18][Configuration]
-PreloadWeight=65
+PreloadWeight=75
 
 [Containments][8][Applets][18][Configuration][ConfigDialog]
 DialogHeight=540
@@ -381,7 +385,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][8][Applets][47][Configuration]
-PreloadWeight=97
+PreloadWeight=100
 
 [Containments][8][Applets][47][Configuration][General]
 showPercentage=true
@@ -458,4 +462,4 @@ shownItems=org.kde.plasma.clipboard,org.kde.plasma.manage-inputmethod,org.kde.pl
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/pacman.log,0,eafaad4a-3947-4207-8c45-c47799b0f853,desktop:/btrfs-snapshot.sh,0,b0d98929-594c-44c3-ae8d-e141c1085bb3,desktop:/Important,0,066c2716-a80a-4b9a-8db7-38de967ca498,desktop:/Import/dnf.conf,0,b0d98929-594c-44c3-ae8d-e141c1085bb3,desktop:/plasma-org.kde.plasma.desktop-appletsrc,0,066c2716-a80a-4b9a-8db7-38de967ca498,desktop:/msgstore.db.crypt15,0,1936c494-e478-46cc-9321-04762c2fd5dd,desktop:/snapper.sh,0,b0d98929-594c-44c3-ae8d-e141c1085bb3,desktop:/profile_0,0,1d7c952e-ecdd-4ead-87d3-7d26b253ea5b,desktop:/btrfs snapshot.sh,0,b0d98929-594c-44c3-ae8d-e141c1085bb3,desktop:/sudo brightness,0,1d7c952e-ecdd-4ead-87d3-7d26b253ea5b,desktop:/Import/install.txt,0,b0d98929-594c-44c3-ae8d-e141c1085bb3,desktop:/Ebook,0,1936c494-e478-46cc-9321-04762c2fd5dd,desktop:/Archive.zip,0,1936c494-e478-46cc-9321-04762c2fd5dd,desktop:/Important,0,502412b8-144c-4d37-a332-368dcd8fbac4,desktop:/install.txt,0,98d4a427-8810-4812-a5ca-a08931543a02,desktop:/Important,0,eafaad4a-3947-4207-8c45-c47799b0f853,desktop:/grub btrfs config.png,0,b0d98929-594c-44c3-ae8d-e141c1085bb3,desktop:/non-functional testing.docx,0,1d7c952e-ecdd-4ead-87d3-7d26b253ea5b,desktop:/Import,0,b0d98929-594c-44c3-ae8d-e141c1085bb3,desktop:/default.txt,0,98d4a427-8810-4812-a5ca-a08931543a02,desktop:/Important,0,1936c494-e478-46cc-9321-04762c2fd5dd,desktop:/dell-smm-hwmon.conf,0,502412b8-144c-4d37-a332-368dcd8fbac4,desktop:/Important,0,1d7c952e-ecdd-4ead-87d3-7d26b253ea5b,desktop:/dochat.txt,0,502412b8-144c-4d37-a332-368dcd8fbac4,desktop:/Music,0,1936c494-e478-46cc-9321-04762c2fd5dd,desktop:/Import,0,1d7c952e-ecdd-4ead-87d3-7d26b253ea5b,desktop:/phone.7z,0,1936c494-e478-46cc-9321-04762c2fd5dd,desktop:/Import/import.sh,0,b0d98929-594c-44c3-ae8d-e141c1085bb3,desktop:/endeavour.sh,0,98d4a427-8810-4812-a5ca-a08931543a02,desktop:/ryzenadj-time.txt,0,98d4a427-8810-4812-a5ca-a08931543a02,desktop:/Import/link.txt,0,b0d98929-594c-44c3-ae8d-e141c1085bb3,desktop:/download app.txt,0,1936c494-e478-46cc-9321-04762c2fd5dd,desktop:/brightness.sh,0,1d7c952e-ecdd-4ead-87d3-7d26b253ea5b,desktop:/Important pictures,0,1936c494-e478-46cc-9321-04762c2fd5dd,desktop:/cch-signature.png,0,1d7c952e-ecdd-4ead-87d3-7d26b253ea5b,desktop:/crash.txt,0,502412b8-144c-4d37-a332-368dcd8fbac4,desktop:/Important,0,98d4a427-8810-4812-a5ca-a08931543a02,desktop:/Text File.txt,0,1d7c952e-ecdd-4ead-87d3-7d26b253ea5b,desktop:/import.sh,0,b0d98929-594c-44c3-ae8d-e141c1085bb3,desktop:/Movies,0,1936c494-e478-46cc-9321-04762c2fd5dd,desktop:/Import/plasma.svg,0,b0d98929-594c-44c3-ae8d-e141c1085bb3
+screenMapping=desktop:/import.sh,0,b0d98929-594c-44c3-ae8d-e141c1085bb3,desktop:/endeavour.sh,0,98d4a427-8810-4812-a5ca-a08931543a02,desktop:/Import/link.txt,0,b0d98929-594c-44c3-ae8d-e141c1085bb3,desktop:/Important pictures,0,1936c494-e478-46cc-9321-04762c2fd5dd,desktop:/sudo brightness,0,1d7c952e-ecdd-4ead-87d3-7d26b253ea5b,desktop:/Important,0,eafaad4a-3947-4207-8c45-c47799b0f853,desktop:/crash.txt,0,502412b8-144c-4d37-a332-368dcd8fbac4,desktop:/Import/install.txt,0,b0d98929-594c-44c3-ae8d-e141c1085bb3,desktop:/Music,0,1936c494-e478-46cc-9321-04762c2fd5dd,desktop:/btrfs snapshot.sh,0,b0d98929-594c-44c3-ae8d-e141c1085bb3,desktop:/snapper.sh,0,b0d98929-594c-44c3-ae8d-e141c1085bb3,desktop:/Important,0,98d4a427-8810-4812-a5ca-a08931543a02,desktop:/btrfs-snapshot.sh,0,b0d98929-594c-44c3-ae8d-e141c1085bb3,desktop:/dell-smm-hwmon.conf,0,502412b8-144c-4d37-a332-368dcd8fbac4,desktop:/grub btrfs config.png,0,b0d98929-594c-44c3-ae8d-e141c1085bb3,desktop:/endeavour.sh,0,066c2716-a80a-4b9a-8db7-38de967ca498,desktop:/Ebook,0,1936c494-e478-46cc-9321-04762c2fd5dd,desktop:/install.txt,0,98d4a427-8810-4812-a5ca-a08931543a02,desktop:/faster-eos.sh,0,066c2716-a80a-4b9a-8db7-38de967ca498,desktop:/optional.sh,0,066c2716-a80a-4b9a-8db7-38de967ca498,desktop:/profile_0,0,1d7c952e-ecdd-4ead-87d3-7d26b253ea5b,desktop:/default.txt,0,98d4a427-8810-4812-a5ca-a08931543a02,desktop:/ryzenadj-time.txt,0,98d4a427-8810-4812-a5ca-a08931543a02,desktop:/Movies,0,1936c494-e478-46cc-9321-04762c2fd5dd,desktop:/dochat.txt,0,502412b8-144c-4d37-a332-368dcd8fbac4,desktop:/Import/dnf.conf,0,b0d98929-594c-44c3-ae8d-e141c1085bb3,desktop:/Text File.txt,0,1d7c952e-ecdd-4ead-87d3-7d26b253ea5b,desktop:/Important,0,1936c494-e478-46cc-9321-04762c2fd5dd,desktop:/Important,0,502412b8-144c-4d37-a332-368dcd8fbac4,desktop:/Import,0,1d7c952e-ecdd-4ead-87d3-7d26b253ea5b,desktop:/pacman.log,0,eafaad4a-3947-4207-8c45-c47799b0f853,desktop:/Import,0,b0d98929-594c-44c3-ae8d-e141c1085bb3,desktop:/brightness.sh,0,1d7c952e-ecdd-4ead-87d3-7d26b253ea5b,desktop:/non-functional testing.docx,0,1d7c952e-ecdd-4ead-87d3-7d26b253ea5b,desktop:/BraveSoftware,0,066c2716-a80a-4b9a-8db7-38de967ca498,desktop:/packages-to-install.txt,0,066c2716-a80a-4b9a-8db7-38de967ca498,desktop:/phone.7z,0,1936c494-e478-46cc-9321-04762c2fd5dd,desktop:/Import/import.sh,0,b0d98929-594c-44c3-ae8d-e141c1085bb3,desktop:/msgstore.db.crypt15,0,1936c494-e478-46cc-9321-04762c2fd5dd,desktop:/download app.txt,0,1936c494-e478-46cc-9321-04762c2fd5dd,desktop:/Important,0,1d7c952e-ecdd-4ead-87d3-7d26b253ea5b,desktop:/cch-signature.png,0,1d7c952e-ecdd-4ead-87d3-7d26b253ea5b,desktop:/Import/plasma.svg,0,b0d98929-594c-44c3-ae8d-e141c1085bb3,desktop:/Important,0,066c2716-a80a-4b9a-8db7-38de967ca498,desktop:/Archive.zip,0,1936c494-e478-46cc-9321-04762c2fd5dd,desktop:/code.txt,0,066c2716-a80a-4b9a-8db7-38de967ca498

@@ -22,7 +22,7 @@ LatitudeAuto=3.1427
 LatitudeFixed=3.45
 LongitudeAuto=101.6951
 LongitudeFixed=101.70458683912977
-NightTemperature=3500
+NightTemperature=3700
 
 [Plugins]
 applicationswitcherEnabled=true
@@ -40,7 +40,6 @@ RemainActiveOnFullscreen=true
 
 [TabBox]
 ActivitiesMode=0
-DesktopMode=0
 LayoutName=present_windows
 
 [Tiling]
@@ -66,3 +65,7 @@ VirtualKeyboardEnabled=true
 
 [Xwayland]
 Scale=1
+
+[org.kde.kdecoration2]
+library=org.kde.breeze
+theme=Breeze

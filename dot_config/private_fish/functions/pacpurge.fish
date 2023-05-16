@@ -1,6 +1,6 @@
 function pacpurge
 	while ! [ "$(pacman -Qdtq)" = "" ]
-		sudo pacman --noconfirm -Rn $(pacman -Qdtq)
+		sudo pacman -Rn $(pacman -Qdtq)
 	end
 end
 

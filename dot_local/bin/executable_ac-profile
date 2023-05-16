@@ -3,6 +3,6 @@
 #set tctl limit
 sudo ryzenadj -f 85
 
-#start coolercontrol
-#systemctl start coolercontrold
+#start libvirt
+systemctl start libvirtd.service
 

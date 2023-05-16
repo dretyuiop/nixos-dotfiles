@@ -22,6 +22,7 @@ ShowWindowTitleOnTitleBar=true
 1280x720 screen: Window-Maximized=true
 1536x864 screen: Height=98
 1536x864 screen: Width=200
+1536x864 screen: Window-Maximized=true
 1600x900 screen: Height=98
 1600x900 screen: Width=200
 1670x939 screen: Height=98

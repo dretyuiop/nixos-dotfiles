@@ -136,15 +136,14 @@ ForegroundPositive=39,174,96
 ForegroundVisited=155,89,182
 
 [DirSelect Dialog]
-DirSelectDialog Size=860,559
-History Items[$e]=file:$HOME/Desktop/Important,file:$HOME/Videos,file:$HOME/Pictures,file:$HOME/Music,file:$HOME/Downloads,file:$HOME/Documents,file:$HOME/Desktop,file:$HOME/ventoy,file:$HOME/Games/Pirate/switch-emu,file:$HOME/Share,file:$HOME/Share,file:$HOME/Share,file:$HOME/Share,file:$HOME,file:$HOME/Games,file:$HOME/Git,file:$HOME/.config/BraveSoftware/Brave-Browser/extensions/libredirect-2.3.4,file:$HOME/Downloads/libredirect-2.3.4,file:$HOME/.themes/Desert-Kvantum,file:$HOME/.themes/Breeze-Noir-Dark-Kvantum,file:$HOME/.themes/Sweet-Ambar-Blue,file:$HOME/.themes/Fluent-Dark,file:$HOME/.themes/KvGlass,file:$HOME/.themes/Layan,file:$HOME/.themes/Layan,file:$HOME/.themes,file:$HOME/vwin,file:$HOME/vwin,file:$HOME,file:$HOME/Documents,file:$HOME/Documents/ Python for business,file:///usr,file:$HOME,file:$HOME/Videos,file:$HOME,file:$HOME/Idena,file:$HOME/Git,file:$HOME/Games,file:///home,file:$HOME,file:$HOME/Downloads,file:///opt/xdman/chrome-extension,file:///usr/local/bin,file:///,file:$HOME,file:$HOME,file:///tmp,file:///var,file:///sys,file:///run
+DirSelectDialog Size=860,606
+History Items[$e]=file:$HOME,file:///,file:$HOME/Public,file:$HOME/VM,file:$HOME/VM,file:$HOME/VM,file:$HOME/VM,file:$HOME/VM,file:$HOME/VM,file:$HOME/VM,file:$HOME/Desktop/Important,file:$HOME/Videos,file:$HOME/Pictures,file:$HOME/Music,file:$HOME/Downloads,file:$HOME/Documents,file:$HOME/Desktop,file:$HOME/ventoy,file:$HOME/Games/Pirate/switch-emu,file:$HOME/Share,file:$HOME/Share,file:$HOME/Share,file:$HOME/Share,file:$HOME,file:$HOME/Games,file:$HOME/Git,file:$HOME/.config/BraveSoftware/Brave-Browser/extensions/libredirect-2.3.4,file:$HOME/Downloads/libredirect-2.3.4,file:$HOME/.themes/Desert-Kvantum,file:$HOME/.themes/Breeze-Noir-Dark-Kvantum,file:$HOME/.themes/Sweet-Ambar-Blue,file:$HOME/.themes/Fluent-Dark,file:$HOME/.themes/KvGlass,file:$HOME/.themes/Layan,file:$HOME/.themes/Layan,file:$HOME/.themes,file:$HOME/vwin,file:$HOME/vwin,file:$HOME,file:$HOME/Documents,file:$HOME/Documents/ Python for business,file:///usr,file:$HOME,file:$HOME/Videos,file:$HOME,file:$HOME/Idena,file:$HOME/Git,file:$HOME/Games,file:///home,file:$HOME
 
 [General]
 AccentColor=0,0,0,0
 BrowserApplication=brave-browser.desktop
-ColorScheme=BreezeDark
-ColorSchemeHash=7e27a66e6ec46638e4fb9d9f6caa72c4f044c338
-LastUsedCustomAccentColor=0,170,255
+ColorSchemeHash=01662607e36cd33eacc7d7d7189f69c26b9a2cc8
+LastUsedCustomAccentColor=104,107,111
 Name=Breeze Dark
 UseSystemBell=true
 XftHintStyle=hintslight
@@ -182,7 +181,7 @@ Show Full Path=false
 Show Inline Previews=true
 Show Preview=false
 Show Speedbar=true
-Show hidden files=false
+Show hidden files=true
 Sort by=Name
 Sort directories first=true
 Sort hidden files last=false
