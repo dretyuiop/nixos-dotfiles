@@ -49,8 +49,8 @@ detailViewIconSize=16
 [KPropertiesDialog]
 1707x960 screen: Height=576
 1707x960 screen: Width=493
-1920x1080 screen: Height=554
-1920x1080 screen: Width=500
+1920x1080 screen: Height=580
+1920x1080 screen: Width=570
 eDP Height 1707x960 eDP=458
 eDP Height 1920x1080 eDP=532
 eDP Width 1707x960 eDP=413
@@ -75,6 +75,9 @@ History=kate,ark,editor,only,code,mars,/home/cch/Games/lutris/runners/wine/lutri
 
 [PreviewSettings]
 Plugins=appimagethumbnail,audiothumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,svgthumbnail
+
+[Search]
+Location=Everywhere
 
 [ViewPropertiesDialog]
 1920x1080 screen: Height=516

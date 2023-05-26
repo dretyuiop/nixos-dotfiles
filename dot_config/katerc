@@ -38,8 +38,8 @@ Tab Middle Click Close Document=true
 Tabbar Tab Limit=0
 
 [KFileDialog Settings]
-Recent Files[$e]=import.sh,file:$HOME/.cache/kioexec/krun/2807_0/unnamed,file:$HOME/workspace/threads/Makefile
-Recent URLs[$e]=file:$HOME/.cache/kioexec/krun/2807_0/unnamed/,file:$HOME/Desktop/Important/Moving-scripts/,file:$HOME/,file:$HOME/Desktop/,file:$HOME/Documents/,file:$HOME/workspace/threads/,file:$HOME/.cache/kioexec/krun/2807_0/
+Recent Files[$e]=import.sh,file:$HOME/Documents/University/Algorithm/tutorial/lecture 9 exercise
+Recent URLs[$e]=file:$HOME/Desktop/Important/Moving-scripts/,file:$HOME/,file:$HOME/Desktop/,file:$HOME/Documents/,file:$HOME/Documents/University/Algorithm/Assignment/,file:$HOME/Documents/University/Algorithm/tutorial/
 detailViewIconSize=16
 
 [KTextEditor Document]
@@ -90,7 +90,7 @@ Fallback Encoding=ISO 8859-15
 Animate Bracket Matching=false
 Auto Color Theme Selection=false
 Color Theme=Dracula
-Font=JetBrainsMono Nerd Font Mono,14,-1,5,50,0,0,0,0,0
+Font=JetBrainsMono Nerd Font,14,-1,5,50,0,0,0,0,0
 Line Height Multiplier=1
 Show Indentation Lines=false
 Show Whole Bracket Expression=false
@@ -158,7 +158,7 @@ Word Completion Remove Tail=true
 
 [KTextEditor::Search]
 Replace History=,srv,Moving-scripts,Important!!/Scripts,hwmon6
-Search History=power,np.int,tee,pacman -S,-S,buf},march,.config,tickless,(,([0]=,modprobe,aria2,sudo cp,cp,package,environ,fcit,steam,frame,limit,control,framerate,syncinterval,docker,dotnet,LIB,lib/,lib,init,architec,arch,zen,menu,snapshots,config,grub,Scripts,!!,Import,exec,sudo,hwmon5,hwmon7
+Search History=qt6_found,found,<=,Focus,focus,FUNCTION,swap,time,fisher,user,trans,power,np.int,tee,pacman -S,-S,buf},march,.config,tickless,(,([0]=,modprobe,aria2,sudo cp,cp,package,environ,fcit,steam,frame,limit,control,framerate,syncinterval,docker,dotnet,LIB,lib/,lib,init,architec,arch,zen,menu,snapshots,config,grub,Scripts,!!,Import,exec,sudo,hwmon5,hwmon7
 
 [Konsole]
 AutoSyncronize=true

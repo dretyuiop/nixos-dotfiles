@@ -15,13 +15,13 @@ RenderMode=HueShiftPositive
 
 [General]
 ShellOpenFileInTabs=true
-ttsVoice=English (Caribbean)
+ttsEngine=flite
 
 [PageView]
 MouseMode=TextSelect
 
 [Reviews]
-QuickAnnotationTools=<tool default="true" name="Yellow Highlighter" type="highlight" id="1"><engine type="TextSelector" color="#ffff00"><annotation type="Highlight" color="#ffffff00"/></engine><shortcut>1</shortcut></tool>,<tool default="true" name="Green Highlighter" type="highlight" id="2"><engine type="TextSelector" color="#00ff00"><annotation type="Highlight" color="#ff00ff00"/></engine><shortcut>2</shortcut></tool>,<tool type="underline" id="3"><engine type="TextSelector" color="#ff0000"><annotation type="Underline" color="#ffff0000"/></engine><shortcut>3</shortcut></tool>,<tool default="true" name="Insert Text" type="typewriter" id="4"><engine block="true" type="PickPoint"><annotation type="Typewriter" width="0" color="#00ffffff" textColor="#000000"/></engine><shortcut>4</shortcut></tool>,<tool type="note-inline" id="5"><engine block="true" type="PickPoint" hoverIcon="tool-note-inline" color="#ffff00"><annotation type="FreeText" color="#ffffff00" textColor="#ff000000"/></engine><shortcut>5</shortcut></tool>,<tool type="note-linked" id="6"><engine type="PickPoint" hoverIcon="tool-note" color="#ffff00"><annotation type="Text" color="#ffffff00" icon="Note"/></engine><shortcut>6</shortcut></tool>
+QuickAnnotationTools=<tool type="highlight" name="Yellow Highlighter" id="1" default="true"><engine type="TextSelector" color="#ffff00"><annotation type="Highlight" color="#ffffff00"/></engine><shortcut>1</shortcut></tool>,<tool type="highlight" name="Green Highlighter" id="2" default="true"><engine type="TextSelector" color="#00ff00"><annotation type="Highlight" color="#ff00ff00"/></engine><shortcut>2</shortcut></tool>,<tool type="underline" id="3"><engine type="TextSelector" color="#ff0000"><annotation type="Underline" color="#ffff0000"/></engine><shortcut>3</shortcut></tool>,<tool type="typewriter" name="Insert Text" id="4" default="true"><engine block="true" type="PickPoint"><annotation width="0" textColor="#000000" type="Typewriter" color="#00ffffff"/></engine><shortcut>4</shortcut></tool>,<tool type="note-inline" id="5"><engine block="true" type="PickPoint" color="#ffff00" hoverIcon="tool-note-inline"><annotation textColor="#ff000000" type="FreeText" color="#ffffff00"/></engine><shortcut>5</shortcut></tool>,<tool type="note-linked" id="6"><engine type="PickPoint" color="#ffff00" hoverIcon="tool-note"><annotation icon="Note" type="Text" color="#ffffff00"/></engine><shortcut>6</shortcut></tool>
 
 [Zoom]
 ZoomMode=2

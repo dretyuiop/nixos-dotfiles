@@ -13,6 +13,9 @@ Name_2=New Desktop
 Number=2
 Rows=1
 
+[Effect-blur]
+BlurStrength=11
+
 [Effect-windowview]
 BorderActivateAll=9
 
@@ -67,5 +70,8 @@ VirtualKeyboardEnabled=true
 Scale=1
 
 [org.kde.kdecoration2]
+BorderSize=None
+BorderSizeAuto=false
+ButtonsOnLeft=M
 library=org.kde.breeze
 theme=Breeze

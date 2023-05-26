@@ -113,7 +113,7 @@ normal_default_pushbutton=true
 single_top_toolbar=true
 tint_on_mouseover=0
 transparent_pcmanfm_view=true
-no_selection_tint=true
+no_selection_tint=false
 transparent_arrow_button=true
 middle_click_scroll=false
 opaque_colors=false
@@ -240,9 +240,10 @@ text.focus.color=white
 min_width=+0.3font
 min_height=+0.3font
 
+
 [Focus]
 inherits=PanelButtonCommand
-frame=false
+frame=true
 frame.element=focus
 frame.top=4
 frame.bottom=4

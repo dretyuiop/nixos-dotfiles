@@ -15,7 +15,7 @@ _k_friendly_name=Keyboard Layout Switcher
 
 [brave-browser.desktop]
 _k_friendly_name=Brave Web Browser
-_launch=Browser,none,Brave Web Browser
+_launch=Browser\tMeta+B,none,Brave Web Browser
 new-private-window=none,none,New Incognito Window
 new-window=none,none,New Window
 
@@ -23,17 +23,9 @@ new-window=none,none,New Window
 _k_friendly_name=btop++
 _launch=Ctrl+Shift+Esc,none,btop++
 
-[htop.desktop]
-_k_friendly_name=Htop
-_launch=none,none,Htop
-
 [io.github.cboxdoerfer.FSearch.desktop]
 _k_friendly_name=FSearch
 _launch=Meta+F,none,FSearch
-
-[jupyter-notebook.desktop]
-_k_friendly_name=Jupyter Notebook
-_launch=none,none,Launch Jupyter Notebook
 
 [kaccess]
 Toggle Screen Reader On and Off=Meta+Alt+S,Meta+Alt+S,Toggle Screen Reader On and Off
@@ -158,7 +150,7 @@ Walk Through Windows of Current Application Alternative=none,,Walk Through Windo
 Walk Through Windows of Current Application Alternative (Reverse)=none,,Walk Through Windows of Current Application Alternative (Reverse)
 Window Above Other Windows=none,,Keep Window Above Others
 Window Below Other Windows=none,,Keep Window Below Others
-Window Close=Alt+F4,Alt+F4,Close Window
+Window Close=Alt+F4\tMeta+Q,Alt+F4,Close Window
 Window Fullscreen=none,,Make Window Fullscreen
 Window Grow Horizontal=none,,Expand Window Horizontally
 Window Grow Vertical=none,,Expand Window Vertically
@@ -292,8 +284,12 @@ PowerDown=Power Down,Power Down,Power Down
 PowerOff=Power Off,Power Off,Power Off
 Sleep=Sleep,Sleep,Suspend
 Toggle Keyboard Backlight=Keyboard Light On/Off,Keyboard Light On/Off,Toggle Keyboard Backlight
-Turn Off Screen=Alt+O,none,Turn Off Screen
+Turn Off Screen=Meta+O\tMeta+C,none,Turn Off Screen
 _k_friendly_name=Power Management
+
+[paru.desktop]
+_k_friendly_name=Paru
+_launch=Ctrl+Shift+P,none,Paru
 
 [plasmashell]
 _k_friendly_name=Plasma
@@ -307,17 +303,17 @@ activate task manager entry 6=Meta+6,Meta+6,Activate Task Manager Entry 6
 activate task manager entry 7=Meta+7,Meta+7,Activate Task Manager Entry 7
 activate task manager entry 8=Meta+8,Meta+8,Activate Task Manager Entry 8
 activate task manager entry 9=Meta+9,Meta+9,Activate Task Manager Entry 9
-activate widget 32=none,none,Activate Application Menu Widget
 activate widget 4=none,none,Activate Pager Widget
 activate widget 41=none,none,Activate Minimize All Windows Widget
 activate widget 52=none,none,Activate Icons-only Task Manager Widget
+activate widget 67=Ctrl+Shift+B,none,Activate Application Menu Widget
 clear-history=none,,Clear Clipboard History
 clipboard_action=Meta+Ctrl+X,Meta+Ctrl+X,Automatic Action Popup Menu
 cycle-panels=Meta+Alt+P,Meta+Alt+P,Move keyboard focus between panels
 cycleNextAction=none,,Next History Item
 cyclePrevAction=none,,Previous History Item
 edit_clipboard=none,,Edit Contents…
-manage activities=Meta+Q,Meta+Q,Show Activity Switcher
+manage activities=Meta+A,Meta+Q,Show Activity Switcher
 next activity=Meta+Tab,Meta+Tab,Walk through activities
 previous activity=Meta+Shift+Tab,Meta+Shift+Tab,Walk through activities (Reverse)
 repeat_action=Meta+Ctrl+R,Meta+Ctrl+R,Manually Invoke Action on Current Clipboard

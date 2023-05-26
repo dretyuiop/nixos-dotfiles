@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xbel>
-<xbel xmlns:kdepriv="http://www.kde.org/kdepriv" xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks" xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info">
+<xbel xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks" xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info" xmlns:kdepriv="http://www.kde.org/kdepriv">
  <info>
   <metadata owner="http://www.kde.org">
    <kde_places_version>4</kde_places_version>
@@ -111,17 +111,6 @@
    </metadata>
   </info>
  </bookmark>
- <bookmark href="file:///home/cch/Git">
-  <title>Git</title>
-  <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="folder-git"/>
-   </metadata>
-   <metadata owner="http://www.kde.org">
-    <ID>1679678983/0</ID>
-   </metadata>
-  </info>
- </bookmark>
  <bookmark href="file:///home/cch/Games">
   <title>Games</title>
   <info>
@@ -133,6 +122,17 @@
    </metadata>
   </info>
  </bookmark>
+ <bookmark href="file:///home/cch/Git">
+  <title>Git</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="folder-git"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1679678983/0</ID>
+   </metadata>
+  </info>
+ </bookmark>
  <bookmark href="file:///home/cch/torrents">
   <title>torrents</title>
   <info>
@@ -141,6 +141,18 @@
    </metadata>
    <metadata owner="http://www.kde.org">
     <ID>1680616233/0</ID>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/cch/VM">
+  <title>VM</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="qemu"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1684573533/0</ID>
+    <OnlyInApp/>
    </metadata>
   </info>
  </bookmark>
@@ -289,7 +301,7 @@
     <bookmark:icon name="kdeconnect"/>
    </metadata>
    <metadata owner="http://www.kde.org">
-    <ID>1684165202/0</ID>
+    <ID>1685111883/1</ID>
    </metadata>
   </info>
  </bookmark>

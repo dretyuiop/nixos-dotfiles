@@ -18,6 +18,11 @@ idleTime=600000
 scriptCommand=/home/cch/.local/bin/ac-profile
 scriptPhase=0
 
+[AC][SuspendSession]
+idleTime=3600000
+suspendThenHibernate=false
+suspendType=1
+
 [Battery]
 icon=battery-060
 

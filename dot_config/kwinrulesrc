@@ -1,2 +1,26 @@
 [$Version]
 update_info=kwinrules.upd:replace-placement-string-to-enum,kwinrules.upd:use-virtual-desktop-ids
+
+[1]
+Description=Window settings for org.kde.dolphin
+opacityactive=94
+opacityactiverule=2
+title=Assignment — Dolphin
+types=1
+wmclass=dolphin org.kde.dolphin
+wmclasscomplete=true
+wmclassmatch=1
+
+[56b77dcf-bdde-424f-8d46-faaae659475b]
+Description=Window settings for org.kde.dolphin
+opacityactive=90
+opacityactiverule=2
+title=Assignment — Dolphin
+types=1
+wmclass=dolphin org.kde.dolphin
+wmclasscomplete=true
+wmclassmatch=1
+
+[General]
+count=1
+rules=1

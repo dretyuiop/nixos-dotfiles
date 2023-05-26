@@ -2,7 +2,7 @@
     "security.workspace.trust.untrustedFiles": "open",
     "editor.fontFamily": "JetBrainsMono Nerd Font",
     "editor.fontLigatures": true,
-    "editor.fontSize": 16,
+    "editor.fontSize": 17,
     "security.workspace.trust.startupPrompt": "never",
     "security.workspace.trust.enabled": false,
     "workbench.enableExperiments": false,
@@ -42,15 +42,16 @@
         ".cu": "cd $dir && nvcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
         ".ring": "ring",
         ".sml": "cd $dir && sml $fileName",
-        ".cpp": "cd $dir && g++ -g $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        ".cpp": "cd $dir && g++ -g '$fileName' -o '$fileNameWithoutExt' && $dir'$fileNameWithoutExt'",
     },
     "code-runner.executorMap": {
+    
 
         "javascript": "node",
         "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
         "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
         "zig": "zig run",
-        "cpp": "cd $dir && g++ -g $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "cpp": "cd $dir && g++ -g '$fileName' -o '$fileNameWithoutExt' && $dir'$fileNameWithoutExt'",
         "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
         "php": "php",
         "python": "python -u",
@@ -101,5 +102,6 @@
     },
     "workbench.colorTheme": "Dracula Dark+",
     "explorer.confirmDelete": false,
-    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font"
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    "code-runner.saveFileBeforeRun": true
 }

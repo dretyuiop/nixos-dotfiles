@@ -1,4 +1,5 @@
 [General]
+ActionsInfoMessageShown=false
 IgnoreImages=false
 SyncClipboards=true
-Version=5.27.4
+Version=5.27.5

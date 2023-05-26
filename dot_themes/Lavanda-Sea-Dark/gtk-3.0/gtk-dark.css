@@ -1548,7 +1548,7 @@ frame.documents-dropdown, .app-notification, toolbar.osd {
 }
 
 frame.documents-dropdown:backdrop, .app-notification:backdrop, toolbar.osd:backdrop {
-  box-shadow: 0 3px 2px -2.5px rgba(0, 0, 0, 0.1), 0 2px 3px -1px rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.08), inset 0 1px rgba(255, 255, 255, 0.08);
+  box-shadow: 0 3px 4px -3px rgba(0, 0, 0, 0.1), 0 2px 3px -1px rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.08), inset 0 1px rgba(255, 255, 255, 0.08);
 }
 
 frame.left.documents-dropdown, .left.app-notification, frame.right.documents-dropdown, .right.app-notification, frame.top.documents-dropdown, .top.app-notification, frame.bottom.documents-dropdown, .bottom.app-notification, toolbar.osd.left, toolbar.osd.right, toolbar.osd.top, toolbar.osd.bottom {
@@ -3708,7 +3708,7 @@ window.background.csd > stack > grid > scrolledwindow > viewport > box > frame >
 window.background.csd > stack > scrolledwindow > viewport > box > list,
 window.background.csd > box > stack > scrolledwindow > viewport > box > list, preferencesgroup list, .geary-accounts-editor-pane list, window.background.csd.unified > deck > deck > deck list, hdyleaflet list.view, hdyleaflet list.frame, leaflet list.view, leaflet list.frame, box.horizontal > stack.background list.view, box.horizontal > stack.background list.frame, hdyleaflet stack.background scrolledwindow > viewport list, hdyleaflet overlay scrolledwindow > viewport list, leaflet stack.background scrolledwindow > viewport list, leaflet overlay scrolledwindow > viewport list, box.horizontal > stack.background stack.background scrolledwindow > viewport list, box.horizontal > stack.background overlay scrolledwindow > viewport list, hdyleaflet frame:not(.view) list:not(.contacts-contact-list), leaflet frame:not(.view) list:not(.contacts-contact-list), box.horizontal > stack.background frame:not(.view) list:not(.contacts-contact-list), list.tweak-group list, .tweak-group-startup, list.content:not(.conversation-listbox) {
   border-radius: 6px;
-  box-shadow: 0 3px 2px -2.5px rgba(0, 0, 0, 0.1), 0 2px 3px -1px rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.08);
+  box-shadow: 0 3px 4px -3px rgba(0, 0, 0, 0.1), 0 2px 3px -1px rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.08);
   border: none;
 }
 
@@ -4518,7 +4518,7 @@ colorswatch#editor-color-sample overlay {
 }
 
 colorswatch#editor-color-sample overlay:hover {
-  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.24), 0 1px 2px -1px rgba(0, 0, 0, 0.2), 0 1px 2px -0.6px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 2px 3px -2px rgba(0, 0, 0, 0.24), 0 1px 2px -1px rgba(0, 0, 0, 0.2), 0 1px 2px -1px rgba(0, 0, 0, 0.15);
 }
 
 colorchooser .popover.osd {
@@ -4529,7 +4529,7 @@ colorchooser .popover.osd {
 }
 
 colorchooser .popover.osd:backdrop {
-  box-shadow: 0 3px 2px -2.5px rgba(0, 0, 0, 0.1), 0 2px 3px -1px rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.08), inset 0 1px rgba(255, 255, 255, 0.08);
+  box-shadow: 0 3px 4px -3px rgba(0, 0, 0, 0.1), 0 2px 3px -1px rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.08), inset 0 1px rgba(255, 255, 255, 0.08);
 }
 
 /********
@@ -4689,7 +4689,7 @@ stackswitcher,
 
 stackswitcher.linked:not(.vertical) > button:not(.suggested-action):not(.destructive-action),
 .stack-switcher.linked:not(.vertical) > button:not(.suggested-action):not(.destructive-action) {
-  margin: 0 0;
+  margin: 0;
   background-color: transparent;
   border-radius: 6px;
   padding: 3px 10px;
@@ -6874,7 +6874,7 @@ UnityDecoration .menuitem:hover {
 
 .background:not(.csd) headerbar:not(.titlebar) {
   border-radius: 0;
-  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.24), 0 1px 2px -1px rgba(0, 0, 0, 0.2), 0 1px 2px -0.6px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 2px 3px -2px rgba(0, 0, 0, 0.24), 0 1px 2px -1px rgba(0, 0, 0, 0.2), 0 1px 2px -1px rgba(0, 0, 0, 0.15);
 }
 
 .background:not(.csd) headerbar.inline-toolbar:not(.titlebar) {
@@ -8192,8 +8192,8 @@ XfdesktopIconView.view .rubberband {
 }
 
 window#whiskermenu-window {
-  border-radius: 12px;
-  background-color: transparent;
+  border-radius: 0;
+  background-color: #22262c;
   border: none;
 }
 

@@ -15,140 +15,108 @@ IntensityEffect=2
 [ColorEffects:Inactive]
 ChangeSelectionColor=true
 Color=112,111,110
-ColorAmount=0.025
+ColorAmount=0.025000000000000001
 ColorEffect=2
-ContrastAmount=0.1
+ContrastAmount=0.10000000000000001
 ContrastEffect=2
 Enable=false
 IntensityAmount=0
 IntensityEffect=0
 
 [Colors:Button]
-BackgroundAlternate=30,87,116
-BackgroundNormal=49,54,59
-DecorationFocus=61,174,233
-DecorationHover=61,174,233
-ForegroundActive=61,174,233
-ForegroundInactive=161,169,177
-ForegroundLink=29,153,243
-ForegroundNegative=218,68,83
-ForegroundNeutral=246,116,0
-ForegroundNormal=252,252,252
-ForegroundPositive=39,174,96
-ForegroundVisited=155,89,182
+BackgroundAlternate=18,147,187
+BackgroundNormal=24,26,31
+DecorationFocus=16,199,255
+DecorationHover=16,199,255
+ForegroundActive=16,199,255
+ForegroundInactive=102,106,115
+ForegroundLink=16,199,255
+ForegroundNegative=255,0,122
+ForegroundNeutral=243,156,18
+ForegroundNormal=254,254,254
+ForegroundPositive=132,255,57
+ForegroundVisited=124,183,255
 
 [Colors:Complementary]
-BackgroundAlternate=30,87,116
-BackgroundNormal=42,46,50
-DecorationFocus=61,174,233
-DecorationHover=61,174,233
-ForegroundActive=61,174,233
-ForegroundInactive=161,169,177
-ForegroundLink=29,153,243
-ForegroundNegative=218,68,83
-ForegroundNeutral=246,116,0
-ForegroundNormal=252,252,252
-ForegroundPositive=39,174,96
-ForegroundVisited=155,89,182
-
-[Colors:Header]
-BackgroundAlternate=42,46,50
-BackgroundNormal=49,54,59
-DecorationFocus=61,174,233
-DecorationHover=61,174,233
-ForegroundActive=61,174,233
-ForegroundInactive=161,169,177
-ForegroundLink=29,153,243
-ForegroundNegative=218,68,83
-ForegroundNeutral=246,116,0
-ForegroundNormal=252,252,252
-ForegroundPositive=39,174,96
-ForegroundVisited=155,89,182
-
-[Colors:Header][Inactive]
-BackgroundAlternate=49,54,59
-BackgroundNormal=42,46,50
-DecorationFocus=61,174,233
-DecorationHover=61,174,233
-ForegroundActive=61,174,233
-ForegroundInactive=161,169,177
-ForegroundLink=29,153,243
-ForegroundNegative=218,68,83
-ForegroundNeutral=246,116,0
-ForegroundNormal=252,252,252
-ForegroundPositive=39,174,96
-ForegroundVisited=155,89,182
+DecorationFocus=16,199,255
+DecorationHover=16,199,255
+ForegroundActive=16,199,255
+ForegroundLink=16,199,255
+ForegroundNegative=255,0,122
+ForegroundNeutral=243,213,110
+ForegroundPositive=132,255,57
+ForegroundVisited=199,77,237
 
 [Colors:Selection]
-BackgroundAlternate=30,87,116
-BackgroundNormal=61,174,233
-DecorationFocus=61,174,233
-DecorationHover=61,174,233
-ForegroundActive=252,252,252
-ForegroundInactive=161,169,177
-ForegroundLink=253,188,75
-ForegroundNegative=176,55,69
-ForegroundNeutral=198,92,0
-ForegroundNormal=252,252,252
-ForegroundPositive=23,104,57
-ForegroundVisited=155,89,182
+BackgroundAlternate=18,148,189
+BackgroundNormal=18,148,189
+DecorationFocus=16,199,255
+DecorationHover=16,199,255
+ForegroundActive=16,199,255
+ForegroundInactive=255,255,255
+ForegroundLink=16,199,255
+ForegroundNegative=255,0,122
+ForegroundNeutral=243,156,18
+ForegroundNormal=255,255,255
+ForegroundPositive=132,255,57
+ForegroundVisited=189,195,199
 
 [Colors:Tooltip]
-BackgroundAlternate=42,46,50
-BackgroundNormal=49,54,59
-DecorationFocus=61,174,233
-DecorationHover=61,174,233
-ForegroundActive=61,174,233
-ForegroundInactive=161,169,177
-ForegroundLink=29,153,243
-ForegroundNegative=218,68,83
-ForegroundNeutral=246,116,0
-ForegroundNormal=252,252,252
-ForegroundPositive=39,174,96
-ForegroundVisited=155,89,182
+BackgroundAlternate=47,52,63
+BackgroundNormal=53,57,69
+DecorationFocus=16,199,255
+DecorationHover=16,199,255
+ForegroundActive=16,199,255
+ForegroundInactive=102,106,115
+ForegroundLink=16,199,255
+ForegroundNegative=255,0,122
+ForegroundNeutral=243,156,18
+ForegroundNormal=211,218,227
+ForegroundPositive=132,255,57
+ForegroundVisited=82,148,226
 
 [Colors:View]
-BackgroundAlternate=35,38,41
-BackgroundNormal=27,30,32
-DecorationFocus=61,174,233
-DecorationHover=61,174,233
-ForegroundActive=61,174,233
-ForegroundInactive=161,169,177
-ForegroundLink=29,153,243
-ForegroundNegative=218,68,83
-ForegroundNeutral=246,116,0
-ForegroundNormal=252,252,252
-ForegroundPositive=39,174,96
-ForegroundVisited=155,89,182
+BackgroundAlternate=46,52,64
+BackgroundNormal=26,29,35
+DecorationFocus=16,199,255
+DecorationHover=16,199,255
+ForegroundActive=16,199,255
+ForegroundInactive=102,106,115
+ForegroundLink=16,199,255
+ForegroundNegative=255,0,122
+ForegroundNeutral=243,156,18
+ForegroundNormal=254,254,254
+ForegroundPositive=132,255,57
+ForegroundVisited=124,183,255
 
 [Colors:Window]
-BackgroundAlternate=49,54,59
-BackgroundNormal=42,46,50
-DecorationFocus=61,174,233
-DecorationHover=61,174,233
-ForegroundActive=61,174,233
-ForegroundInactive=161,169,177
-ForegroundLink=29,153,243
-ForegroundNegative=218,68,83
-ForegroundNeutral=246,116,0
-ForegroundNormal=252,252,252
-ForegroundPositive=39,174,96
-ForegroundVisited=155,89,182
+BackgroundAlternate=47,52,63
+BackgroundNormal=35,38,46
+DecorationFocus=16,199,255
+DecorationHover=16,199,255
+ForegroundActive=16,199,255
+ForegroundInactive=102,106,115
+ForegroundLink=16,199,255
+ForegroundNegative=255,0,122
+ForegroundNeutral=243,156,18
+ForegroundNormal=254,254,254
+ForegroundPositive=132,255,57
+ForegroundVisited=124,183,255
 
 [DirSelect Dialog]
-DirSelectDialog Size=860,606
-History Items[$e]=file:$HOME,file:///,file:$HOME/Public,file:$HOME/VM,file:$HOME/VM,file:$HOME/VM,file:$HOME/VM,file:$HOME/VM,file:$HOME/VM,file:$HOME/VM,file:$HOME/Desktop/Important,file:$HOME/Videos,file:$HOME/Pictures,file:$HOME/Music,file:$HOME/Downloads,file:$HOME/Documents,file:$HOME/Desktop,file:$HOME/ventoy,file:$HOME/Games/Pirate/switch-emu,file:$HOME/Share,file:$HOME/Share,file:$HOME/Share,file:$HOME/Share,file:$HOME,file:$HOME/Games,file:$HOME/Git,file:$HOME/.config/BraveSoftware/Brave-Browser/extensions/libredirect-2.3.4,file:$HOME/Downloads/libredirect-2.3.4,file:$HOME/.themes/Desert-Kvantum,file:$HOME/.themes/Breeze-Noir-Dark-Kvantum,file:$HOME/.themes/Sweet-Ambar-Blue,file:$HOME/.themes/Fluent-Dark,file:$HOME/.themes/KvGlass,file:$HOME/.themes/Layan,file:$HOME/.themes/Layan,file:$HOME/.themes,file:$HOME/vwin,file:$HOME/vwin,file:$HOME,file:$HOME/Documents,file:$HOME/Documents/ Python for business,file:///usr,file:$HOME,file:$HOME/Videos,file:$HOME,file:$HOME/Idena,file:$HOME/Git,file:$HOME/Games,file:///home,file:$HOME
+DirSelectDialog Size=859,604
+History Items[$e]=file:$HOME/kvantum/LavandaSea,file:$HOME/kvantum/Lavanda-Dark,file:$HOME/kvantum/Ocean,file:$HOME/kvantum,file:$HOME,file:///,file:$HOME/Public,file:$HOME/VM,file:$HOME/VM,file:$HOME/VM,file:$HOME/VM,file:$HOME/VM,file:$HOME/VM,file:$HOME/VM,file:$HOME/Desktop/Important,file:$HOME/Videos,file:$HOME/Pictures,file:$HOME/Music,file:$HOME/Downloads,file:$HOME/Documents,file:$HOME/Desktop,file:$HOME/ventoy,file:$HOME/Games/Pirate/switch-emu,file:$HOME/Share,file:$HOME/Share,file:$HOME/Share,file:$HOME/Share,file:$HOME,file:$HOME/Games,file:$HOME/Git,file:$HOME/.config/BraveSoftware/Brave-Browser/extensions/libredirect-2.3.4,file:$HOME/Downloads/libredirect-2.3.4,file:$HOME/.themes/Desert-Kvantum,file:$HOME/.themes/Breeze-Noir-Dark-Kvantum,file:$HOME/.themes/Sweet-Ambar-Blue,file:$HOME/.themes/Fluent-Dark,file:$HOME/.themes/KvGlass,file:$HOME/.themes/Layan,file:$HOME/.themes/Layan,file:$HOME/.themes,file:$HOME/vwin,file:$HOME/vwin,file:$HOME,file:$HOME/Documents,file:$HOME/Documents/ Python for business,file:///usr,file:$HOME,file:$HOME/Videos,file:$HOME,file:$HOME/Idena
 
 [General]
-AccentColor=0,0,0,0
+AccentColor=16,199,255
 BrowserApplication=brave-browser.desktop
-ColorSchemeHash=01662607e36cd33eacc7d7d7189f69c26b9a2cc8
-LastUsedCustomAccentColor=104,107,111
+ColorSchemeHash=a950b2a0f69e130bee29431b815aae8cde743097
+LastUsedCustomAccentColor=16,199,255
 Name=Breeze Dark
 UseSystemBell=true
 XftHintStyle=hintslight
 XftSubPixel=rgb
-fixed=JetBrainsMono Nerd Font Mono,14,-1,5,50,0,0,0,0,0
+fixed=JetBrainsMono Nerd Font,14,-1,5,50,0,0,0,0,0
 font=Noto Sans,11,-1,5,50,0,0,0,0,0
 menuFont=Noto Sans,11,-1,5,50,0,0,0,0,0
 shadeSortColumn=true
@@ -157,7 +125,7 @@ toolBarFont=Noto Sans,11,-1,5,50,0,0,0,0,0
 widgetStyle=Breeze
 
 [Icons]
-Theme=Tela-dracula-dark-v2
+Theme=Tela-dracula-dark
 
 [KDE]
 AnimationDurationFactor=0.25
@@ -167,7 +135,7 @@ ScrollbarLeftClickNavigatesByPage=false
 ShowDeleteCommand=true
 SingleClick=false
 contrast=4
-widgetStyle=Breeze
+widgetStyle=kvantum
 
 [KFileDialog Settings]
 Allow Expansion=false
@@ -182,10 +150,10 @@ Show Inline Previews=true
 Show Preview=false
 Show Speedbar=true
 Show hidden files=true
-Sort by=Name
+Sort by=Date
 Sort directories first=true
 Sort hidden files last=false
-Sort reversed=false
+Sort reversed=true
 Speedbar Width=138
 View Style=DetailTree
 
@@ -194,7 +162,7 @@ ScaleFactor=1.125
 ScreenScaleFactors=eDP-1=1.125;
 
 [KShortcutsDialog Settings]
-Dialog Size=600,480
+Dialog Size=1920,998
 
 [PreviewSettings]
 MaximumRemoteSize=0
@@ -204,10 +172,10 @@ NextCompletion=
 PrevCompletion=
 
 [WM]
-activeBackground=49,54,59
-activeBlend=252,252,252
+activeBackground=47,52,63
+activeBlend=47,52,63
 activeFont=Noto Sans,11,-1,5,50,0,0,0,0,0
-activeForeground=252,252,252
-inactiveBackground=42,46,50
-inactiveBlend=161,169,177
-inactiveForeground=161,169,177
+activeForeground=211,218,227
+inactiveBackground=47,52,63
+inactiveBlend=47,52,63
+inactiveForeground=102,106,115
