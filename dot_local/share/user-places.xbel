@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xbel>
-<xbel xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks" xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info" xmlns:kdepriv="http://www.kde.org/kdepriv">
+<xbel xmlns:kdepriv="http://www.kde.org/kdepriv" xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks" xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info">
  <info>
   <metadata owner="http://www.kde.org">
    <kde_places_version>4</kde_places_version>
@@ -294,14 +294,14 @@
    </metadata>
   </info>
  </separator>
- <bookmark href="kdeconnect://535064433e2252c2/">
-  <title>M2102J20SG</title>
+ <bookmark href="">
+  <title>Project Folder</title>
   <info>
    <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="kdeconnect"/>
+    <bookmark:icon name="folder-favorites"/>
    </metadata>
    <metadata owner="http://www.kde.org">
-    <ID>1685111883/1</ID>
+    <OnlyInApp>kdenlive</OnlyInApp>
    </metadata>
   </info>
  </bookmark>

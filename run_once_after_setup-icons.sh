@@ -8,3 +8,6 @@ ln -sf ~/.local/icons/lutris.svg ~/.local/share/icons/Tela-dracula/scalable/apps
 
 #executable icon
 ln -sf ~/.local/icons/application-x-executable.svg ~/.local/share/icons/Tela-dracula/scalable/mimetypes/application-x-executable.svg
+
+#qbittorent icon
+ln -sf ~/.local/icons/qbittorrent.svg ~/.local/share/icons/Tela-dracula/scalable/apps/qbittorrent.svg

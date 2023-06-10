@@ -3,7 +3,7 @@ update_info=kwinrules.upd:replace-placement-string-to-enum,kwinrules.upd:use-vir
 
 [1]
 Description=Window settings for org.kde.dolphin
-opacityactive=94
+opacityactive=96
 opacityactiverule=2
 title=Assignment — Dolphin
 types=1

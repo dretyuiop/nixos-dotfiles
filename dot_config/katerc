@@ -38,8 +38,8 @@ Tab Middle Click Close Document=true
 Tabbar Tab Limit=0
 
 [KFileDialog Settings]
-Recent Files[$e]=import.sh,file:$HOME/Documents/University/Algorithm/tutorial/lecture 9 exercise
-Recent URLs[$e]=file:$HOME/Desktop/Important/Moving-scripts/,file:$HOME/,file:$HOME/Desktop/,file:$HOME/Documents/,file:$HOME/Documents/University/Algorithm/Assignment/,file:$HOME/Documents/University/Algorithm/tutorial/
+Recent Files[$e]=import.sh,file:$HOME/Documents/University/Database/tutorial/scripts.sql,file:$HOME/Documents/University/OS-xmu/Assignment/assignment 1.c,file:$HOME/Documents/University/Algorithm/tutorial/lecture 9 exercise
+Recent URLs[$e]=file:$HOME/Desktop/Important/Moving-scripts/,file:$HOME/,file:$HOME/Desktop/,file:$HOME/Documents/,file:$HOME/Documents/University/Algorithm/Assignment/,file:$HOME/Documents/University/Algorithm/tutorial/,file:$HOME/Documents/University/OS-xmu/Assignment/,file:$HOME/Documents/University/Database/tutorial/
 detailViewIconSize=16
 
 [KTextEditor Document]
@@ -157,8 +157,8 @@ Word Completion Minimal Word Length=3
 Word Completion Remove Tail=true
 
 [KTextEditor::Search]
-Replace History=,srv,Moving-scripts,Important!!/Scripts,hwmon6
-Search History=qt6_found,found,<=,Focus,focus,FUNCTION,swap,time,fisher,user,trans,power,np.int,tee,pacman -S,-S,buf},march,.config,tickless,(,([0]=,modprobe,aria2,sudo cp,cp,package,environ,fcit,steam,frame,limit,control,framerate,syncinterval,docker,dotnet,LIB,lib/,lib,init,architec,arch,zen,menu,snapshots,config,grub,Scripts,!!,Import,exec,sudo,hwmon5,hwmon7
+Replace History=28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,11,7,10,12,9,writers-preference,,srv,Moving-scripts,Important!!/Scripts,hwmon6
+Search History=print,super,15,12,8,5,readers-preference,isinbox,(isInboxZero\\, isWindowBlurred) ,a(isInboxZero\\, isWindowBlurred) ,services,pdf,arc,reader,qt6_found,found,<=,Focus,focus,FUNCTION,swap,time,fisher,user,trans,power,np.int,tee,pacman -S,-S,buf},march,.config,tickless,(,([0]=,modprobe,aria2,sudo cp,cp,package,environ,fcit,steam,frame,limit,control,framerate,syncinterval,docker,dotnet,LIB,lib/,lib,init,architec,arch,zen,menu,snapshots,config,grub,Scripts,!!,Import,exec,sudo,hwmon5,hwmon7
 
 [Konsole]
 AutoSyncronize=true

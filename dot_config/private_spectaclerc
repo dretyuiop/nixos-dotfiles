@@ -3,8 +3,10 @@ update_info=spectacle_clipboard.upd:clipboard-settings-change,spectacle_remember
 
 [General]
 clipboardGroup=PostScreenshotCopyImage
+rememberLastRectangularRegion=Always
 
 [GuiConfig]
+cropRegion=394,625,733,63
 window-position=0,0
 
 [KFileDialog Settings]

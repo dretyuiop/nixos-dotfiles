@@ -21,6 +21,7 @@ BorderActivateAll=9
 
 [NightColor]
 Active=true
+DayTemperature=6200
 LatitudeAuto=3.1427
 LatitudeFixed=3.45
 LongitudeAuto=101.6951

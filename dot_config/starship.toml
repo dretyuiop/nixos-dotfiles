@@ -35,7 +35,7 @@ read_only = "  "
 format = "at [$path]($style)[$read_only]($read_only_style) "
 
 [git_branch]
-symbol = " "
+symbol = " "
 format = "on [$symbol$branch]($style) "
 style = "bold green"
 
@@ -91,13 +91,13 @@ symbol = " "
 symbol = " "
 
 [memory_usage]
-symbol = " "
+symbol = "󰍛 "
 
 [meson]
 symbol = "喝 "
 
 [nim]
-symbol = " "
+symbol = "󰆥 "
 
 [nix_shell]
 symbol = " "
@@ -117,10 +117,10 @@ Emscripten = " "
 EndeavourOS = " "
 Fedora = " "
 FreeBSD = " "
-Garuda = "﯑ "
+Garuda = "󰛓 "
 Gentoo = " "
 HardenedBSD = "ﲊ "
-Illumos = " "
+Illumos = "󰈸 "
 Linux = " "
 Macos = " "
 Manjaro = " "
@@ -129,10 +129,10 @@ MidnightBSD = " "
 Mint = " "
 NetBSD = " "
 NixOS = " "
-OpenBSD = " "
+OpenBSD = "󰈺 "
 openSUSE = " "
-OracleLinux = " "
-Pop = " "
+OracleLinux = "󰌷 "
+Pop = " "
 Raspbian = " "
 Redhat = " "
 RedHatEnterprise = " "
@@ -141,7 +141,7 @@ Solus = "ﴱ "
 SUSE = " "
 Ubuntu = " "
 Unknown = " "
-Windows = " "
+Windows = "󰍲 "
 
 [pijul_channel]
 symbol = "🪺 "

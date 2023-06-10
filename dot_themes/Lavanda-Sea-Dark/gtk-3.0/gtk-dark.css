@@ -227,12 +227,6 @@ XfdesktopIconView.view treeview.view .content-view .rubberband,
 .content-view treeview.view rubberband,
 .content-view treeview.view XfdesktopIconView.view .rubberband,
 XfdesktopIconView.view .content-view treeview.view .rubberband,
-.content-view treeview.view rubberband,
-.content-view treeview.view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view .content-view treeview.view .rubberband,
-treeview.view .content-view rubberband,
-treeview.view .content-view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view treeview.view .content-view .rubberband,
 .content-view treeview.view flowbox rubberband,
 .content-view treeview.view flowbox XfdesktopIconView.view .rubberband,
 XfdesktopIconView.view .content-view treeview.view flowbox .rubberband,
@@ -245,12 +239,6 @@ XfdesktopIconView.view .content-view flowbox treeview.view .rubberband,
 flowbox treeview.view .content-view rubberband,
 flowbox treeview.view .content-view XfdesktopIconView.view .rubberband,
 XfdesktopIconView.view flowbox treeview.view .content-view .rubberband,
-.content-view treeview.view flowbox treeview.view rubberband,
-.content-view treeview.view flowbox treeview.view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view .content-view treeview.view flowbox treeview.view .rubberband,
-treeview.view flowbox treeview.view .content-view rubberband,
-treeview.view flowbox treeview.view .content-view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view treeview.view flowbox treeview.view .content-view .rubberband,
 .content-view flowbox treeview.view flowbox rubberband,
 .content-view flowbox treeview.view flowbox XfdesktopIconView.view .rubberband,
 XfdesktopIconView.view .content-view flowbox treeview.view flowbox .rubberband,
@@ -268,44 +256,18 @@ XfdesktopIconView.view treeview.view flowbox .content-view .rubberband,
 .content-view treeview.view flowbox rubberband,
 .content-view treeview.view flowbox XfdesktopIconView.view .rubberband,
 XfdesktopIconView.view .content-view treeview.view flowbox .rubberband,
-.content-view treeview.view flowbox rubberband,
-.content-view treeview.view flowbox XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view .content-view treeview.view flowbox .rubberband,
-treeview.view flowbox .content-view rubberband,
-treeview.view flowbox .content-view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view treeview.view flowbox .content-view .rubberband,
 treeview.view .content-view flowbox rubberband,
 treeview.view .content-view flowbox XfdesktopIconView.view .rubberband,
 XfdesktopIconView.view treeview.view .content-view flowbox .rubberband,
-.content-view treeview.view flowbox rubberband,
-.content-view treeview.view flowbox XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view .content-view treeview.view flowbox .rubberband,
-treeview.view flowbox .content-view rubberband,
-treeview.view flowbox .content-view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view treeview.view flowbox .content-view .rubberband,
 treeview.view .content-view flowbox treeview.view rubberband,
 treeview.view .content-view flowbox treeview.view XfdesktopIconView.view .rubberband,
 XfdesktopIconView.view treeview.view .content-view flowbox treeview.view .rubberband,
-.content-view treeview.view flowbox treeview.view rubberband,
-.content-view treeview.view flowbox treeview.view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view .content-view treeview.view flowbox treeview.view .rubberband,
-treeview.view flowbox treeview.view .content-view rubberband,
-treeview.view flowbox treeview.view .content-view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view treeview.view flowbox treeview.view .content-view .rubberband,
-.content-view treeview.view flowbox treeview.view rubberband,
-.content-view treeview.view flowbox treeview.view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view .content-view treeview.view flowbox treeview.view .rubberband,
-treeview.view flowbox treeview.view .content-view rubberband,
-treeview.view flowbox treeview.view .content-view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view treeview.view flowbox treeview.view .content-view .rubberband,
 .content-view flowbox treeview.view flowbox rubberband,
 .content-view flowbox treeview.view flowbox XfdesktopIconView.view .rubberband,
 XfdesktopIconView.view .content-view flowbox treeview.view flowbox .rubberband,
 flowbox treeview.view flowbox .content-view rubberband,
 flowbox treeview.view flowbox .content-view XfdesktopIconView.view .rubberband,
 XfdesktopIconView.view flowbox treeview.view flowbox .content-view .rubberband,
-treeview.view flowbox .content-view .rubberband,
-.content-view treeview.view flowbox .rubberband,
 flowbox treeview.view rubberband,
 flowbox treeview.view XfdesktopIconView.view .rubberband,
 XfdesktopIconView.view flowbox treeview.view .rubberband,
@@ -318,12 +280,6 @@ XfdesktopIconView.view .content-view flowbox treeview.view .rubberband,
 flowbox .content-view treeview.view rubberband,
 flowbox .content-view treeview.view XfdesktopIconView.view .rubberband,
 XfdesktopIconView.view flowbox .content-view treeview.view .rubberband,
-.content-view flowbox treeview.view rubberband,
-.content-view flowbox treeview.view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view .content-view flowbox treeview.view .rubberband,
-flowbox treeview.view .content-view rubberband,
-flowbox treeview.view .content-view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view flowbox treeview.view .content-view .rubberband,
 flowbox .content-view treeview.view flowbox rubberband,
 flowbox .content-view treeview.view flowbox XfdesktopIconView.view .rubberband,
 XfdesktopIconView.view flowbox .content-view treeview.view flowbox .rubberband,
@@ -333,35 +289,9 @@ XfdesktopIconView.view .content-view flowbox treeview.view flowbox .rubberband,
 flowbox treeview.view flowbox .content-view rubberband,
 flowbox treeview.view flowbox .content-view XfdesktopIconView.view .rubberband,
 XfdesktopIconView.view flowbox treeview.view flowbox .content-view .rubberband,
-.content-view flowbox treeview.view rubberband,
-.content-view flowbox treeview.view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view .content-view flowbox treeview.view .rubberband,
-flowbox treeview.view .content-view rubberband,
-flowbox treeview.view .content-view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view flowbox treeview.view .content-view .rubberband,
-.content-view treeview.view flowbox treeview.view rubberband,
-.content-view treeview.view flowbox treeview.view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view .content-view treeview.view flowbox treeview.view .rubberband,
-treeview.view flowbox treeview.view .content-view rubberband,
-treeview.view flowbox treeview.view .content-view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view treeview.view flowbox treeview.view .content-view .rubberband,
-.content-view flowbox treeview.view flowbox rubberband,
-.content-view flowbox treeview.view flowbox XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view .content-view flowbox treeview.view flowbox .rubberband,
-flowbox treeview.view flowbox .content-view rubberband,
-flowbox treeview.view flowbox .content-view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view flowbox treeview.view flowbox .content-view .rubberband,
-flowbox treeview.view .content-view .rubberband,
-.content-view flowbox treeview.view .rubberband,
 flowbox rubberband,
 flowbox XfdesktopIconView.view .rubberband,
 XfdesktopIconView.view flowbox .rubberband,
-flowbox .content-view rubberband,
-flowbox .content-view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view flowbox .content-view .rubberband,
-.content-view flowbox rubberband,
-.content-view flowbox XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view .content-view flowbox .rubberband,
 flowbox .content-view treeview.view rubberband,
 flowbox .content-view treeview.view XfdesktopIconView.view .rubberband,
 XfdesktopIconView.view flowbox .content-view treeview.view .rubberband,
@@ -374,32 +304,18 @@ XfdesktopIconView.view flowbox treeview.view .content-view .rubberband,
 treeview.view .content-view flowbox rubberband,
 treeview.view .content-view flowbox XfdesktopIconView.view .rubberband,
 XfdesktopIconView.view treeview.view .content-view flowbox .rubberband,
-.content-view treeview.view flowbox rubberband,
-.content-view treeview.view flowbox XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view .content-view treeview.view flowbox .rubberband,
 treeview.view flowbox .content-view rubberband,
 treeview.view flowbox .content-view XfdesktopIconView.view .rubberband,
 XfdesktopIconView.view treeview.view flowbox .content-view .rubberband,
 .content-view flowbox treeview.view rubberband,
 .content-view flowbox treeview.view XfdesktopIconView.view .rubberband,
 XfdesktopIconView.view .content-view flowbox treeview.view .rubberband,
-flowbox treeview.view .content-view rubberband,
-flowbox treeview.view .content-view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view flowbox treeview.view .content-view .rubberband,
-.content-view treeview.view flowbox treeview.view rubberband,
-.content-view treeview.view flowbox treeview.view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view .content-view treeview.view flowbox treeview.view .rubberband,
-treeview.view flowbox treeview.view .content-view rubberband,
-treeview.view flowbox treeview.view .content-view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view treeview.view flowbox treeview.view .content-view .rubberband,
 .content-view flowbox treeview.view flowbox rubberband,
 .content-view flowbox treeview.view flowbox XfdesktopIconView.view .rubberband,
 XfdesktopIconView.view .content-view flowbox treeview.view flowbox .rubberband,
 flowbox treeview.view flowbox .content-view rubberband,
 flowbox treeview.view flowbox .content-view XfdesktopIconView.view .rubberband,
 XfdesktopIconView.view flowbox treeview.view flowbox .content-view .rubberband,
-flowbox .content-view .rubberband,
-.content-view flowbox .rubberband,
 flowbox treeview.view rubberband,
 flowbox treeview.view XfdesktopIconView.view .rubberband,
 XfdesktopIconView.view flowbox treeview.view .rubberband,
@@ -412,12 +328,6 @@ XfdesktopIconView.view .content-view flowbox treeview.view .rubberband,
 flowbox .content-view treeview.view rubberband,
 flowbox .content-view treeview.view XfdesktopIconView.view .rubberband,
 XfdesktopIconView.view flowbox .content-view treeview.view .rubberband,
-.content-view flowbox treeview.view rubberband,
-.content-view flowbox treeview.view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view .content-view flowbox treeview.view .rubberband,
-flowbox treeview.view .content-view rubberband,
-flowbox treeview.view .content-view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view flowbox treeview.view .content-view .rubberband,
 flowbox .content-view treeview.view flowbox rubberband,
 flowbox .content-view treeview.view flowbox XfdesktopIconView.view .rubberband,
 XfdesktopIconView.view flowbox .content-view treeview.view flowbox .rubberband,
@@ -427,26 +337,6 @@ XfdesktopIconView.view .content-view flowbox treeview.view flowbox .rubberband,
 flowbox treeview.view flowbox .content-view rubberband,
 flowbox treeview.view flowbox .content-view XfdesktopIconView.view .rubberband,
 XfdesktopIconView.view flowbox treeview.view flowbox .content-view .rubberband,
-.content-view flowbox treeview.view rubberband,
-.content-view flowbox treeview.view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view .content-view flowbox treeview.view .rubberband,
-flowbox treeview.view .content-view rubberband,
-flowbox treeview.view .content-view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view flowbox treeview.view .content-view .rubberband,
-.content-view treeview.view flowbox treeview.view rubberband,
-.content-view treeview.view flowbox treeview.view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view .content-view treeview.view flowbox treeview.view .rubberband,
-treeview.view flowbox treeview.view .content-view rubberband,
-treeview.view flowbox treeview.view .content-view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view treeview.view flowbox treeview.view .content-view .rubberband,
-.content-view flowbox treeview.view flowbox rubberband,
-.content-view flowbox treeview.view flowbox XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view .content-view flowbox treeview.view flowbox .rubberband,
-flowbox treeview.view flowbox .content-view rubberband,
-flowbox treeview.view flowbox .content-view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view flowbox treeview.view flowbox .content-view .rubberband,
-flowbox treeview.view .content-view .rubberband,
-.content-view flowbox treeview.view .rubberband,
 treeview.view flowbox rubberband,
 treeview.view flowbox XfdesktopIconView.view .rubberband,
 XfdesktopIconView.view treeview.view flowbox .rubberband,
@@ -456,138 +346,15 @@ XfdesktopIconView.view treeview.view flowbox .content-view .rubberband,
 .content-view treeview.view flowbox rubberband,
 .content-view treeview.view flowbox XfdesktopIconView.view .rubberband,
 XfdesktopIconView.view .content-view treeview.view flowbox .rubberband,
-.content-view treeview.view flowbox rubberband,
-.content-view treeview.view flowbox XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view .content-view treeview.view flowbox .rubberband,
-treeview.view flowbox .content-view rubberband,
-treeview.view flowbox .content-view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view treeview.view flowbox .content-view .rubberband,
 treeview.view .content-view flowbox rubberband,
 treeview.view .content-view flowbox XfdesktopIconView.view .rubberband,
 XfdesktopIconView.view treeview.view .content-view flowbox .rubberband,
-.content-view treeview.view flowbox rubberband,
-.content-view treeview.view flowbox XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view .content-view treeview.view flowbox .rubberband,
-treeview.view flowbox .content-view rubberband,
-treeview.view flowbox .content-view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view treeview.view flowbox .content-view .rubberband,
-treeview.view .content-view flowbox treeview.view rubberband,
-treeview.view .content-view flowbox treeview.view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view treeview.view .content-view flowbox treeview.view .rubberband,
-.content-view treeview.view flowbox treeview.view rubberband,
-.content-view treeview.view flowbox treeview.view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view .content-view treeview.view flowbox treeview.view .rubberband,
-treeview.view flowbox treeview.view .content-view rubberband,
-treeview.view flowbox treeview.view .content-view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view treeview.view flowbox treeview.view .content-view .rubberband,
-.content-view treeview.view flowbox treeview.view rubberband,
-.content-view treeview.view flowbox treeview.view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view .content-view treeview.view flowbox treeview.view .rubberband,
-treeview.view flowbox treeview.view .content-view rubberband,
-treeview.view flowbox treeview.view .content-view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view treeview.view flowbox treeview.view .content-view .rubberband,
 .content-view flowbox treeview.view flowbox rubberband,
 .content-view flowbox treeview.view flowbox XfdesktopIconView.view .rubberband,
 XfdesktopIconView.view .content-view flowbox treeview.view flowbox .rubberband,
 flowbox treeview.view flowbox .content-view rubberband,
 flowbox treeview.view flowbox .content-view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view flowbox treeview.view flowbox .content-view .rubberband,
-treeview.view flowbox .content-view .rubberband,
-.content-view treeview.view flowbox .rubberband,
-treeview.view flowbox rubberband,
-treeview.view flowbox XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view treeview.view flowbox .rubberband,
-treeview.view flowbox .content-view rubberband,
-treeview.view flowbox .content-view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view treeview.view flowbox .content-view .rubberband,
-.content-view treeview.view flowbox rubberband,
-.content-view treeview.view flowbox XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view .content-view treeview.view flowbox .rubberband,
-.content-view treeview.view flowbox rubberband,
-.content-view treeview.view flowbox XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view .content-view treeview.view flowbox .rubberband,
-treeview.view flowbox .content-view rubberband,
-treeview.view flowbox .content-view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view treeview.view flowbox .content-view .rubberband,
-treeview.view .content-view flowbox rubberband,
-treeview.view .content-view flowbox XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view treeview.view .content-view flowbox .rubberband,
-.content-view treeview.view flowbox rubberband,
-.content-view treeview.view flowbox XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view .content-view treeview.view flowbox .rubberband,
-treeview.view flowbox .content-view rubberband,
-treeview.view flowbox .content-view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view treeview.view flowbox .content-view .rubberband,
-treeview.view .content-view flowbox treeview.view rubberband,
-treeview.view .content-view flowbox treeview.view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view treeview.view .content-view flowbox treeview.view .rubberband,
-.content-view treeview.view flowbox treeview.view rubberband,
-.content-view treeview.view flowbox treeview.view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view .content-view treeview.view flowbox treeview.view .rubberband,
-treeview.view flowbox treeview.view .content-view rubberband,
-treeview.view flowbox treeview.view .content-view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view treeview.view flowbox treeview.view .content-view .rubberband,
-.content-view treeview.view flowbox treeview.view rubberband,
-.content-view treeview.view flowbox treeview.view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view .content-view treeview.view flowbox treeview.view .rubberband,
-treeview.view flowbox treeview.view .content-view rubberband,
-treeview.view flowbox treeview.view .content-view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view treeview.view flowbox treeview.view .content-view .rubberband,
-.content-view flowbox treeview.view flowbox rubberband,
-.content-view flowbox treeview.view flowbox XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view .content-view flowbox treeview.view flowbox .rubberband,
-flowbox treeview.view flowbox .content-view rubberband,
-flowbox treeview.view flowbox .content-view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view flowbox treeview.view flowbox .content-view .rubberband,
-treeview.view flowbox .content-view .rubberband,
-.content-view treeview.view flowbox .rubberband,
-flowbox treeview.view rubberband,
-flowbox treeview.view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view flowbox treeview.view .rubberband,
-flowbox treeview.view .content-view rubberband,
-flowbox treeview.view .content-view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view flowbox treeview.view .content-view .rubberband,
-.content-view flowbox treeview.view rubberband,
-.content-view flowbox treeview.view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view .content-view flowbox treeview.view .rubberband,
-flowbox .content-view treeview.view rubberband,
-flowbox .content-view treeview.view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view flowbox .content-view treeview.view .rubberband,
-.content-view flowbox treeview.view rubberband,
-.content-view flowbox treeview.view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view .content-view flowbox treeview.view .rubberband,
-flowbox treeview.view .content-view rubberband,
-flowbox treeview.view .content-view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view flowbox treeview.view .content-view .rubberband,
-flowbox .content-view treeview.view flowbox rubberband,
-flowbox .content-view treeview.view flowbox XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view flowbox .content-view treeview.view flowbox .rubberband,
-.content-view flowbox treeview.view flowbox rubberband,
-.content-view flowbox treeview.view flowbox XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view .content-view flowbox treeview.view flowbox .rubberband,
-flowbox treeview.view flowbox .content-view rubberband,
-flowbox treeview.view flowbox .content-view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view flowbox treeview.view flowbox .content-view .rubberband,
-.content-view flowbox treeview.view rubberband,
-.content-view flowbox treeview.view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view .content-view flowbox treeview.view .rubberband,
-flowbox treeview.view .content-view rubberband,
-flowbox treeview.view .content-view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view flowbox treeview.view .content-view .rubberband,
-.content-view treeview.view flowbox treeview.view rubberband,
-.content-view treeview.view flowbox treeview.view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view .content-view treeview.view flowbox treeview.view .rubberband,
-treeview.view flowbox treeview.view .content-view rubberband,
-treeview.view flowbox treeview.view .content-view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view treeview.view flowbox treeview.view .content-view .rubberband,
-.content-view flowbox treeview.view flowbox rubberband,
-.content-view flowbox treeview.view flowbox XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view .content-view flowbox treeview.view flowbox .rubberband,
-flowbox treeview.view flowbox .content-view rubberband,
-flowbox treeview.view flowbox .content-view XfdesktopIconView.view .rubberband,
-XfdesktopIconView.view flowbox treeview.view flowbox .content-view .rubberband,
-flowbox treeview.view .content-view .rubberband,
-.content-view flowbox treeview.view .rubberband {
+XfdesktopIconView.view flowbox treeview.view flowbox .content-view .rubberband {
   border: 1px solid #5b9bf8;
   background-color: rgba(91, 155, 248, 0.3);
 }
@@ -1762,7 +1529,7 @@ searchbar > revealer > box {
   box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.04);
 }
 
-.titlebar .path-bar button.text-button:not(.suggested-action):not(.destructive-action) {
+.titlebar .path-bar button:not(.suggested-action):not(.destructive-action).text-button {
   min-width: 0;
   padding-left: 6px;
   padding-right: 6px;
@@ -2065,11 +1832,11 @@ treeview.view:drop(active) {
   border-color: alpha(currentColor, 0.08);
 }
 
-treeview.view.after:drop(active) {
+treeview.view:drop(active).after {
   border-top-style: none;
 }
 
-treeview.view.before:drop(active) {
+treeview.view:drop(active).before {
   border-bottom-style: none;
 }
 
@@ -2781,19 +2548,19 @@ scrollbar.overlay-indicator:not(.dragging):not(.hovering) button:disabled {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-scrollbar.overlay-indicator.horizontal:not(.dragging):not(.hovering) slider {
+scrollbar.overlay-indicator:not(.dragging):not(.hovering).horizontal slider {
   min-width: 24px;
 }
 
-scrollbar.overlay-indicator.horizontal:not(.dragging):not(.hovering) button {
+scrollbar.overlay-indicator:not(.dragging):not(.hovering).horizontal button {
   min-width: 8px;
 }
 
-scrollbar.overlay-indicator.vertical:not(.dragging):not(.hovering) slider {
+scrollbar.overlay-indicator:not(.dragging):not(.hovering).vertical slider {
   min-height: 24px;
 }
 
-scrollbar.overlay-indicator.vertical:not(.dragging):not(.hovering) button {
+scrollbar.overlay-indicator:not(.dragging):not(.hovering).vertical button {
   min-height: 8px;
 }
 
@@ -4035,12 +3802,12 @@ filechooser actionbar, filechooser actionbar > revealer > box {
   border-style: none;
 }
 
-stacksidebar.sidebar:dir(ltr) list, stacksidebar.sidebar.left list, stacksidebar.sidebar.left:dir(rtl) list, .sidebar:not(separator):dir(ltr), .sidebar.left:not(separator) {
+stacksidebar.sidebar:dir(ltr) list, stacksidebar.sidebar.left list, stacksidebar.sidebar.left:dir(rtl) list, .sidebar:not(separator):dir(ltr), .sidebar:not(separator).left {
   border-right: 1px solid rgba(255, 255, 255, 0.12);
   border-left-style: none;
 }
 
-stacksidebar.sidebar:dir(rtl) list, stacksidebar.sidebar.right list, .sidebar:not(separator):dir(rtl), .sidebar.right:not(separator) {
+stacksidebar.sidebar:dir(rtl) list, stacksidebar.sidebar.right list, .sidebar:not(separator):dir(rtl), .sidebar:not(separator).right {
   border-left: 1px solid rgba(255, 255, 255, 0.12);
   border-right-style: none;
 }
@@ -4696,8 +4463,8 @@ stackswitcher.linked:not(.vertical) > button:not(.suggested-action):not(.destruc
   box-shadow: none;
 }
 
-stackswitcher.linked:not(.vertical) > button.text-button:not(.suggested-action):not(.destructive-action),
-.stack-switcher.linked:not(.vertical) > button.text-button:not(.suggested-action):not(.destructive-action) {
+stackswitcher.linked:not(.vertical) > button:not(.suggested-action):not(.destructive-action).text-button,
+.stack-switcher.linked:not(.vertical) > button:not(.suggested-action):not(.destructive-action).text-button {
   min-width: 100px;
 }
 
@@ -4944,11 +4711,11 @@ popover.emoji-completion .emoji:hover {
   margin-right: 0;
 }
 
-.path-bar-box .linked.nautilus-path-bar button.text-button:not(.suggested-action):not(.destructive-action) {
+.path-bar-box .linked.nautilus-path-bar button:not(.suggested-action):not(.destructive-action).text-button {
   min-width: 0;
 }
 
-.path-bar-box .linked.nautilus-path-bar button.text-button.image-button:not(.suggested-action):not(.destructive-action) image:not(:only-child) {
+.path-bar-box .linked.nautilus-path-bar button:not(.suggested-action):not(.destructive-action).text-button.image-button image:not(:only-child) {
   margin: 0;
 }
 
@@ -4979,11 +4746,11 @@ popover.emoji-completion .emoji:hover {
   background-color: transparent;
 }
 
-.windowhandle .linked.nautilus-path-bar .path-buttons-box button.current-dir:not(.suggested-action):not(.destructive-action) {
+.windowhandle .linked.nautilus-path-bar .path-buttons-box button:not(.suggested-action):not(.destructive-action).current-dir {
   color: #FFFFFF;
 }
 
-.windowhandle .linked.nautilus-path-bar .path-buttons-box button.current-dir:not(.suggested-action):not(.destructive-action):hover, .windowhandle .linked.nautilus-path-bar .path-buttons-box button.current-dir:not(.suggested-action):not(.destructive-action):active {
+.windowhandle .linked.nautilus-path-bar .path-buttons-box button:not(.suggested-action):not(.destructive-action).current-dir:hover, .windowhandle .linked.nautilus-path-bar .path-buttons-box button:not(.suggested-action):not(.destructive-action).current-dir:active {
   background: none;
   box-shadow: none;
 }
@@ -5031,7 +4798,7 @@ popover.emoji-completion .emoji:hover {
   background-color: transparent;
 }
 
-.nautilus-window notebook .view:not(treeview) {
+.nautilus-window notebook :not(treeview).view {
   border-radius: 6px;
 }
 
@@ -5576,7 +5343,7 @@ stack.view.polari-entry-area {
   border-bottom-right-radius: 12px;
 }
 
-stack.view.polari-entry-area:disabled {
+stack:disabled.view.polari-entry-area {
   background-image: image(#22262c);
 }
 
@@ -6877,7 +6644,7 @@ UnityDecoration .menuitem:hover {
   box-shadow: 0 2px 3px -2px rgba(0, 0, 0, 0.24), 0 1px 2px -1px rgba(0, 0, 0, 0.2), 0 1px 2px -1px rgba(0, 0, 0, 0.15);
 }
 
-.background:not(.csd) headerbar.inline-toolbar:not(.titlebar) {
+.background:not(.csd) headerbar:not(.titlebar).inline-toolbar {
   border-style: none;
 }
 
