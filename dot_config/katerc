@@ -38,9 +38,13 @@ Tab Middle Click Close Document=true
 Tabbar Tab Limit=0
 
 [KFileDialog Settings]
-Recent Files[$e]=import.sh,file:$HOME/Documents/University/Database/tutorial/scripts.sql,file:$HOME/Documents/University/OS-xmu/Assignment/assignment 1.c,file:$HOME/Documents/University/Algorithm/tutorial/lecture 9 exercise
-Recent URLs[$e]=file:$HOME/Desktop/Important/Moving-scripts/,file:$HOME/,file:$HOME/Desktop/,file:$HOME/Documents/,file:$HOME/Documents/University/Algorithm/Assignment/,file:$HOME/Documents/University/Algorithm/tutorial/,file:$HOME/Documents/University/OS-xmu/Assignment/,file:$HOME/Documents/University/Database/tutorial/
+Recent Files[$e]=import.sh,file:$HOME/Documents/authelia.yml,file:$HOME/Documents/University/Algorithm/Assignment/Assignment 2/video.txt,file:$HOME/Documents/University/Database/tutorial/scripts.sql
+Recent URLs[$e]=file:$HOME/Documents/University/Algorithm/Assignment/,file:$HOME/Documents/University/Algorithm/tutorial/,file:$HOME/Documents/University/OS-xmu/Assignment/,file:$HOME/Documents/University/Database/tutorial/,file:$HOME/.deepinwine/Deepin-WeChat/drive_c/users/cch/My Documents/WeChat Files/wxid_jhqrrvpeavgc22/FileStorage/File/2023-06/,file:$HOME/Documents/University/Algorithm/,file:$HOME/Documents/University/,file:$HOME/Documents/University/Algorithm/Assignment/Assignment 2/,file:$HOME/,file:$HOME/Downloads/,file:$HOME/Documents/
 detailViewIconSize=16
+
+[KPropertiesDialog]
+1920x1080 screen: Height=544
+1920x1080 screen: Width=486
 
 [KTextEditor Document]
 Allow End of Line Detection=true
@@ -157,8 +161,8 @@ Word Completion Minimal Word Length=3
 Word Completion Remove Tail=true
 
 [KTextEditor::Search]
-Replace History=28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,11,7,10,12,9,writers-preference,,srv,Moving-scripts,Important!!/Scripts,hwmon6
-Search History=print,super,15,12,8,5,readers-preference,isinbox,(isInboxZero\\, isWindowBlurred) ,a(isInboxZero\\, isWindowBlurred) ,services,pdf,arc,reader,qt6_found,found,<=,Focus,focus,FUNCTION,swap,time,fisher,user,trans,power,np.int,tee,pacman -S,-S,buf},march,.config,tickless,(,([0]=,modprobe,aria2,sudo cp,cp,package,environ,fcit,steam,frame,limit,control,framerate,syncinterval,docker,dotnet,LIB,lib/,lib,init,architec,arch,zen,menu,snapshots,config,grub,Scripts,!!,Import,exec,sudo,hwmon5,hwmon7
+Replace History=example.com,,192.168.1.7,authelia_net,.,chewfamily.party,container,$container,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,11,7,10,12,9,writers-preference,srv,Moving-scripts,Important!!/Scripts,hwmon6
+Search History=chewfamily.party,#,192.168.1.6,chewfamily.paty,caddy-docker-proxy,$APPDATA,example.com,podman,session,upnp,install,pod,$,admind,bin,encod,h2,hostname,postgres,v3,mutate,print,best fitne,stop_criteria,num_genes,fitness,get_initial_values(),fitness_func,sol_per,swap,swap_2,tournam,super,15,12,8,5,readers-preference,isinbox,(isInboxZero\\, isWindowBlurred) ,a(isInboxZero\\, isWindowBlurred) ,services,pdf,arc,reader,qt6_found,found,<=,Focus,focus,FUNCTION,time,fisher,user,trans,power,np.int,tee,pacman -S,-S,buf},march,.config,tickless,(,([0]=,modprobe,aria2,sudo cp,cp,package,environ,fcit,steam,frame,limit,control,framerate,syncinterval,docker,dotnet,LIB,lib/,lib,init,architec,arch,zen,menu,snapshots,config,grub,Scripts,!!,Import,exec,sudo,hwmon5,hwmon7
 
 [Konsole]
 AutoSyncronize=true
@@ -170,7 +174,10 @@ SetEditor=false
 
 [MainWindow]
 1707x960 screen: Window-Maximized=true
+1920x1080 screen: Height=648
+1920x1080 screen: Width=1152
 1920x1080 screen: Window-Maximized=true
+2 screens: Window-Maximized=true
 eDP Window-Maximized 1707x960 eDP=true
 eDP Window-Maximized 1920x1080 eDP=true
 eDP-1 Window-Maximized 1707x960 eDP-1=true

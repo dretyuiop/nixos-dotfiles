@@ -13,6 +13,9 @@ PointerAccelerationProfile=1
 ScrollFactor=0.75
 TapToClick=true
 
+[Libinput][9354][23343][XCTECH Wireless-Receiver]
+PointerAccelerationProfile=2
+
 [Mouse]
 X11LibInputXAccelProfileFlat=true
 cursorTheme=breeze_cursors

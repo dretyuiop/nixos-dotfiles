@@ -44,7 +44,7 @@ RemainActiveOnFullscreen=true
 
 [TabBox]
 ActivitiesMode=0
-LayoutName=present_windows
+LayoutName=thumbnail_grid
 
 [Tiling]
 padding=4
@@ -52,10 +52,19 @@ padding=4
 [Tiling][213a9620-187e-58a6-b80b-85d8fb95dfce]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][23d84027-6b81-5a63-91b8-8e7e614d6fad]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][34c6f7ea-1327-5585-8b8f-5729a4f38413]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.4015625},{"width":0.3484375},{"width":0.25}]}
 
+[Tiling][41dbdd7d-3355-5b44-a3d8-6b9d76bd8f49]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][44bea82b-2de0-5111-957d-06ed811de8d0]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][a3d991e5-e4d6-5b87-b0c7-d6949c612be9]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][bf274583-4026-542e-848d-884136a4fcb7]

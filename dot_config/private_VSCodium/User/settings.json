@@ -103,5 +103,6 @@
     "workbench.colorTheme": "Dracula Dark+",
     "explorer.confirmDelete": false,
     "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
-    "code-runner.saveFileBeforeRun": true
+    "code-runner.saveFileBeforeRun": true,
+    "git.openRepositoryInParentFolders": "never"
 }

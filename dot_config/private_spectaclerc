@@ -6,7 +6,7 @@ clipboardGroup=PostScreenshotCopyImage
 rememberLastRectangularRegion=Always
 
 [GuiConfig]
-cropRegion=394,625,733,63
+cropRegion=677,391,888,562
 window-position=0,0
 
 [KFileDialog Settings]

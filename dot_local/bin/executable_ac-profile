@@ -2,3 +2,6 @@
 
 #set tctl limit
 sudo ryzenadj -f 85
+
+# set refresh rate
+kscreen-doctor output.eDP-1.mode.1920x1080@165

@@ -42,15 +42,15 @@ ViewPropsTimestamp=2023,5,1,0,19,22.224
 [KFileDialog Settings]
 Places Icons Auto-resize=false
 Places Icons Static Size=22
-Recent Files[$e]=file:$HOME
-Recent URLs[$e]=file:$HOME/Desktop/,file:$HOME/Games/,file:$HOME/Downloads/,file:$HOME/
+Recent Files[$e]=file:$HOME,file:$HOME/.local/icons/school.png,file:$HOME/Downloads/book-open.svg
+Recent URLs[$e]=file:$HOME/Desktop/,file:$HOME/Games/,file:$HOME/Downloads/,file:$HOME/,file:$HOME/Documents/,file:$HOME/.local/icons/
 detailViewIconSize=16
 
 [KPropertiesDialog]
 1707x960 screen: Height=576
 1707x960 screen: Width=493
-1920x1080 screen: Height=544
-1920x1080 screen: Width=553
+1920x1080 screen: Height=568
+1920x1080 screen: Width=584
 eDP Height 1707x960 eDP=458
 eDP Height 1920x1080 eDP=532
 eDP Width 1707x960 eDP=413
@@ -75,9 +75,6 @@ History=kate,ark,editor,only,code,mars,/home/cch/Games/lutris/runners/wine/lutri
 
 [PreviewSettings]
 Plugins=appimagethumbnail,audiothumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,svgthumbnail
-
-[Search]
-Location=Everywhere
 
 [Toolbar mainToolBar]
 ToolButtonStyle=IconOnly
