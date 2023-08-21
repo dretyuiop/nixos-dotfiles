@@ -1,5 +1,0 @@
-#!/bin/sh
-
-cd /home/cch/Git/linux-tkg
-git pull
-makepkg -si

@@ -1,4 +1,0 @@
-#!/bin/sh
-if [ $(cat "/sys/class/power_supply/BAT1/status") != "Discharging" ]; then
-  sensors | grep -A 0 'Tctl' | cut -c16-17
-fi
