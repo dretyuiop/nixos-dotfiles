@@ -37,7 +37,7 @@ SortingChoice=CaseSensitiveSorting
 SplitView=true
 UseTabForSwitchingSplitView=true
 Version=202
-ViewPropsTimestamp=2023,5,1,0,19,22.224
+ViewPropsTimestamp=2023,8,27,2,0,5.492
 
 [KFileDialog Settings]
 Places Icons Auto-resize=false
@@ -47,8 +47,8 @@ Recent URLs[$e]=file:$HOME/Desktop/,file:$HOME/Games/,file:$HOME/Downloads/,file
 detailViewIconSize=16
 
 [KPropertiesDialog]
-1707x960 screen: Height=576
-1707x960 screen: Width=493
+1707x960 screen: Height=498
+1707x960 screen: Width=431
 1920x1080 screen: Height=692
 1920x1080 screen: Width=599
 eDP Height 1707x960 eDP=458

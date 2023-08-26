@@ -1,5 +1,5 @@
 <!DOCTYPE gui>
-<gui translationDomain="kxmlgui5" version="38" name="dolphin">
+<gui version="38" name="dolphin" translationDomain="kxmlgui5">
  <MenuBar alreadyVisited="1">
   <Menu noMerge="1" alreadyVisited="1" name="file">
    <text translationDomain="kxmlgui5">&amp;File</text>
@@ -79,7 +79,7 @@
    <Separator/>
    <Action name="panels"/>
    <Menu noMerge="1" icon="edit-select-text" name="location_bar">
-    <text context="@title:menu" translationDomain="dolphin">Location Bar</text>
+    <text translationDomain="dolphin" context="@title:menu">Location Bar</text>
     <Action name="editable_location"/>
     <Action name="replace_location"/>
    </Menu>
@@ -96,6 +96,7 @@
    <Action name="bookmarks"/>
    <Action name="closed_tabs"/>
   </Menu>
+  <Separator weakSeparator="1"/>
   <Separator weakSeparator="1"/>
   <Menu noMerge="1" alreadyVisited="1" name="tools">
    <text translationDomain="kxmlgui5">&amp;Tools</text>
@@ -134,16 +135,14 @@
   </Menu>
  </MenuBar>
  <ToolBar noMerge="1" alreadyVisited="1" name="mainToolBar">
-  <text context="@title:menu" translationDomain="dolphin">Main Toolbar</text>
+  <text translationDomain="dolphin" context="@title:menu">Main Toolbar</text>
   <Action name="go_back"/>
   <Action name="go_forward"/>
   <Action name="go_up"/>
   <Separator name="separator_0"/>
-  <Action name="go_home"/>
-  <Action name="view_redisplay"/>
   <Action name="url_navigators"/>
-  <Action name="new_menu"/>
   <Action name="show_hidden_files"/>
+  <Action name="view_mode"/>
   <Action name="split_view"/>
   <Action name="split_stash"/>
   <Action name="hamburger_menu"/>
@@ -185,7 +184,7 @@
   <Action priority="0" name="view_zoom_in"/>
   <Action priority="0" name="view_zoom_reset"/>
   <Action priority="0" name="view_zoom_out"/>
-  <Action shortcut="Ctrl+X" priority="0" name="edit_cut"/>
+  <Action priority="0" shortcut="Ctrl+X" name="edit_cut"/>
   <Action priority="0" name="edit_copy"/>
   <Action priority="0" name="edit_paste"/>
   <Action priority="0" name="toggle_search"/>

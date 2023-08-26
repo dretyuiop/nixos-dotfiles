@@ -223,10 +223,10 @@ PreloadWeight=42
 [Containments][2][General]
 AppletOrder=67;4;52;6;7;62;60;61;59;20
 
-[Containments][65]
+[Containments][69]
 ItemGeometries-1920x1080=
 ItemGeometriesHorizontal=
-activityId=066c2716-a80a-4b9a-8db7-38de967ca498
+activityId=904b9b01-06c3-4ed5-bee9-519d7aa3d5db
 formfactor=0
 immutability=1
 lastScreen=0
@@ -234,29 +234,13 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][65][ConfigDialog]
+[Containments][69][ConfigDialog]
 DialogHeight=660
 DialogWidth=880
 
-[Containments][65][Configuration]
-PreloadWeight=42
-
-[Containments][65][General]
-positions={"1920x1080":["2"\\,"16"\\,"desktop:/vcards_20230528_004326.vcf"\\,"1"\\,"1"\\,"desktop:/Important"\\,"0"\\,"1"\\,"desktop:/packages-to-install.txt"\\,"1"\\,"0"\\,"desktop:/BraveSoftware"\\,"0"\\,"0"\\,"desktop:/faster-eos.sh"\\,"0"\\,"3"\\,"desktop:/endeavour.sh"\\,"0"\\,"2"\\,"desktop:/optional.sh"\\,"0"\\,"4"]\\,"1536x864":[""]\\,"0x0":[]}
-sortMode=-1
-
-[Containments][65][Wallpaper][org.kde.image][General]
+[Containments][69][Wallpaper][org.kde.image][General]
 Image=/home/cch/.local/share/wallpapers/mountains-unsplash.jpg
-SlidePaths=/usr/share/wallpapers/
-
-[Containments][68]
-activityId=066c2716-a80a-4b9a-8db7-38de967ca498
-formfactor=0
-immutability=1
-lastScreen=1
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
+SlidePaths=/home/cch/.local/share/wallpapers/,/usr/share/wallpapers/
 
 [Containments][8]
 activityId=
@@ -517,11 +501,11 @@ DialogWidth=1920
 PreloadWeight=42
 
 [Containments][8][General]
-extraItems=org.kde.kdeconnect,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardlayout,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.manage-inputmethod,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.battery,org.kde.plasma.bluetooth,com.github.prayag2.controlcentre,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.kscreen,org.kde.plasma.vault
+extraItems=org.kde.kdeconnect,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardlayout,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.manage-inputmethod,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.battery,org.kde.plasma.bluetooth,com.github.prayag2.controlcentre,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.kscreen
 hiddenItems=org.kde.plasma.weather,org.kde.plasma.nightcolorcontrol,dev.jhyub.supergfxctl,org.kde.kdeconnect,ryzen-controller,org.kde.plasma.bluetooth,xdm-app,firewall-applet,org.kde.kalendar.contact,org.kde.plasma.mediacontroller
-knownItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.volume,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.kscreen,org.kde.plasma.vault
+knownItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.volume,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.kscreen
 shownItems=org.kde.plasma.clipboard,org.kde.plasma.manage-inputmethod,org.kde.plasma.networkmanagement,56623116,org.kde.plasma.battery,Fcitx,com.github.prayag2.controlcentre,Optimus Manager Qt,Fancontrol-GUI_fancontrold.gui,org.kde.plasma.volume
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/Important,0,eafaad4a-3947-4207-8c45-c47799b0f853,desktop:/Import/link.txt,0,b0d98929-594c-44c3-ae8d-e141c1085bb3,desktop:/packages-to-install.txt,0,066c2716-a80a-4b9a-8db7-38de967ca498,desktop:/phone.7z,0,1936c494-e478-46cc-9321-04762c2fd5dd,desktop:/Import,0,1d7c952e-ecdd-4ead-87d3-7d26b253ea5b,desktop:/endeavour.sh,0,98d4a427-8810-4812-a5ca-a08931543a02,desktop:/snapper.sh,0,b0d98929-594c-44c3-ae8d-e141c1085bb3,desktop:/pacman.log,0,eafaad4a-3947-4207-8c45-c47799b0f853,desktop:/Import/import.sh,0,b0d98929-594c-44c3-ae8d-e141c1085bb3,desktop:/Archive.zip,0,1936c494-e478-46cc-9321-04762c2fd5dd,desktop:/sudo brightness,0,1d7c952e-ecdd-4ead-87d3-7d26b253ea5b,desktop:/cch-signature.png,0,1d7c952e-ecdd-4ead-87d3-7d26b253ea5b,desktop:/dell-smm-hwmon.conf,0,502412b8-144c-4d37-a332-368dcd8fbac4,desktop:/Important,0,502412b8-144c-4d37-a332-368dcd8fbac4,desktop:/non-functional testing.docx,0,1d7c952e-ecdd-4ead-87d3-7d26b253ea5b,desktop:/endeavour.sh,0,066c2716-a80a-4b9a-8db7-38de967ca498,desktop:/Ebook,0,1936c494-e478-46cc-9321-04762c2fd5dd,desktop:/Text File.txt,0,1d7c952e-ecdd-4ead-87d3-7d26b253ea5b,desktop:/download app.txt,0,1936c494-e478-46cc-9321-04762c2fd5dd,desktop:/Import/plasma.svg,0,b0d98929-594c-44c3-ae8d-e141c1085bb3,desktop:/faster-eos.sh,0,066c2716-a80a-4b9a-8db7-38de967ca498,desktop:/Important,0,98d4a427-8810-4812-a5ca-a08931543a02,desktop:/Important,0,1936c494-e478-46cc-9321-04762c2fd5dd,desktop:/Music,0,1936c494-e478-46cc-9321-04762c2fd5dd,desktop:/default.txt,0,98d4a427-8810-4812-a5ca-a08931543a02,desktop:/Important,0,1d7c952e-ecdd-4ead-87d3-7d26b253ea5b,desktop:/btrfs-snapshot.sh,0,b0d98929-594c-44c3-ae8d-e141c1085bb3,desktop:/crash.txt,0,502412b8-144c-4d37-a332-368dcd8fbac4,desktop:/optional.sh,0,066c2716-a80a-4b9a-8db7-38de967ca498,desktop:/Important,0,066c2716-a80a-4b9a-8db7-38de967ca498,desktop:/Important pictures,0,1936c494-e478-46cc-9321-04762c2fd5dd,desktop:/Import/install.txt,0,b0d98929-594c-44c3-ae8d-e141c1085bb3,desktop:/ryzenadj-time.txt,0,98d4a427-8810-4812-a5ca-a08931543a02,desktop:/Import/dnf.conf,0,b0d98929-594c-44c3-ae8d-e141c1085bb3,desktop:/BraveSoftware,0,066c2716-a80a-4b9a-8db7-38de967ca498,desktop:/msgstore.db.crypt15,0,1936c494-e478-46cc-9321-04762c2fd5dd,desktop:/profile_0,0,1d7c952e-ecdd-4ead-87d3-7d26b253ea5b,desktop:/brightness.sh,0,1d7c952e-ecdd-4ead-87d3-7d26b253ea5b,desktop:/grub btrfs config.png,0,b0d98929-594c-44c3-ae8d-e141c1085bb3,desktop:/btrfs snapshot.sh,0,b0d98929-594c-44c3-ae8d-e141c1085bb3,desktop:/Movies,0,1936c494-e478-46cc-9321-04762c2fd5dd,desktop:/install.txt,0,98d4a427-8810-4812-a5ca-a08931543a02,desktop:/Import,0,b0d98929-594c-44c3-ae8d-e141c1085bb3,desktop:/import.sh,0,b0d98929-594c-44c3-ae8d-e141c1085bb3,desktop:/dochat.txt,0,502412b8-144c-4d37-a332-368dcd8fbac4,desktop:/vcards_20230528_004326.vcf,0,066c2716-a80a-4b9a-8db7-38de967ca498
+screenMapping=desktop:/optional.sh,0,066c2716-a80a-4b9a-8db7-38de967ca498,desktop:/Important pictures,0,1936c494-e478-46cc-9321-04762c2fd5dd,desktop:/crash.txt,0,502412b8-144c-4d37-a332-368dcd8fbac4,desktop:/install.txt,0,98d4a427-8810-4812-a5ca-a08931543a02,desktop:/Ebook,0,1936c494-e478-46cc-9321-04762c2fd5dd,desktop:/faster-eos.sh,0,066c2716-a80a-4b9a-8db7-38de967ca498,desktop:/dochat.txt,0,502412b8-144c-4d37-a332-368dcd8fbac4,desktop:/Import/link.txt,0,b0d98929-594c-44c3-ae8d-e141c1085bb3,desktop:/phone.7z,0,1936c494-e478-46cc-9321-04762c2fd5dd,desktop:/non-functional testing.docx,0,1d7c952e-ecdd-4ead-87d3-7d26b253ea5b,desktop:/msgstore.db.crypt15,0,1936c494-e478-46cc-9321-04762c2fd5dd,desktop:/profile_0,0,1d7c952e-ecdd-4ead-87d3-7d26b253ea5b,desktop:/Important,0,1d7c952e-ecdd-4ead-87d3-7d26b253ea5b,desktop:/pacman.log,0,eafaad4a-3947-4207-8c45-c47799b0f853,desktop:/dell-smm-hwmon.conf,0,502412b8-144c-4d37-a332-368dcd8fbac4,desktop:/Import/plasma.svg,0,b0d98929-594c-44c3-ae8d-e141c1085bb3,desktop:/default.txt,0,98d4a427-8810-4812-a5ca-a08931543a02,desktop:/Import/dnf.conf,0,b0d98929-594c-44c3-ae8d-e141c1085bb3,desktop:/btrfs-snapshot.sh,0,b0d98929-594c-44c3-ae8d-e141c1085bb3,desktop:/endeavour.sh,0,066c2716-a80a-4b9a-8db7-38de967ca498,desktop:/import.sh,0,b0d98929-594c-44c3-ae8d-e141c1085bb3,desktop:/download app.txt,0,1936c494-e478-46cc-9321-04762c2fd5dd,desktop:/ryzenadj-time.txt,0,98d4a427-8810-4812-a5ca-a08931543a02,desktop:/Import,0,1d7c952e-ecdd-4ead-87d3-7d26b253ea5b,desktop:/Movies,0,1936c494-e478-46cc-9321-04762c2fd5dd,desktop:/Important,0,502412b8-144c-4d37-a332-368dcd8fbac4,desktop:/Import/install.txt,0,b0d98929-594c-44c3-ae8d-e141c1085bb3,desktop:/Important,0,eafaad4a-3947-4207-8c45-c47799b0f853,desktop:/BraveSoftware,0,066c2716-a80a-4b9a-8db7-38de967ca498,desktop:/endeavour.sh,0,98d4a427-8810-4812-a5ca-a08931543a02,desktop:/vcards_20230528_004326.vcf,0,066c2716-a80a-4b9a-8db7-38de967ca498,desktop:/sudo brightness,0,1d7c952e-ecdd-4ead-87d3-7d26b253ea5b,desktop:/cch-signature.png,0,1d7c952e-ecdd-4ead-87d3-7d26b253ea5b,desktop:/Homework,0,904b9b01-06c3-4ed5-bee9-519d7aa3d5db,desktop:/grub btrfs config.png,0,b0d98929-594c-44c3-ae8d-e141c1085bb3,desktop:/Music,0,1936c494-e478-46cc-9321-04762c2fd5dd,desktop:/Import/import.sh,0,b0d98929-594c-44c3-ae8d-e141c1085bb3,desktop:/Text File.txt,0,1d7c952e-ecdd-4ead-87d3-7d26b253ea5b,desktop:/brightness.sh,0,1d7c952e-ecdd-4ead-87d3-7d26b253ea5b,desktop:/btrfs snapshot.sh,0,b0d98929-594c-44c3-ae8d-e141c1085bb3,desktop:/Important,0,98d4a427-8810-4812-a5ca-a08931543a02,desktop:/Important,0,066c2716-a80a-4b9a-8db7-38de967ca498,desktop:/snapper.sh,0,b0d98929-594c-44c3-ae8d-e141c1085bb3,desktop:/Important,0,1936c494-e478-46cc-9321-04762c2fd5dd,desktop:/Archive.zip,0,1936c494-e478-46cc-9321-04762c2fd5dd,desktop:/packages-to-install.txt,0,066c2716-a80a-4b9a-8db7-38de967ca498,desktop:/Import,0,b0d98929-594c-44c3-ae8d-e141c1085bb3
