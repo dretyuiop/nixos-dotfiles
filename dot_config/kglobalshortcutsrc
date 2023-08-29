@@ -22,11 +22,15 @@ new-window=none,none,New Window
 
 [btop.desktop]
 _k_friendly_name=btop++
-_launch=Ctrl+Shift+Esc,none,btop++
+_launch=none,none,btop++
 
 [io.github.cboxdoerfer.FSearch.desktop]
 _k_friendly_name=FSearch
 _launch=Meta+F,none,FSearch
+
+[io.missioncenter.MissionCenter.desktop]
+_k_friendly_name=Mission Center
+_launch=Ctrl+Shift+Esc,none,Mission Center
 
 [kaccess]
 Toggle Screen Reader On and Off=Meta+Alt+S,Meta+Alt+S,Toggle Screen Reader On and Off
@@ -43,7 +47,7 @@ _launch=none,none,Launch kate
 [kcm_touchpad]
 Disable Touchpad=Touchpad Off,Touchpad Off,Disable Touchpad
 Enable Touchpad=Touchpad On,Touchpad On,Enable Touchpad
-Toggle Touchpad=Touchpad Toggle\tMeta+Ctrl+Zenkaku Hankaku,Touchpad Toggle,Toggle Touchpad
+Toggle Touchpad=Touchpad Toggle\tMeta+Ctrl+Zenkaku Hankaku,Touchpad Toggle\tMeta+Ctrl+Zenkaku Hankaku,Toggle Touchpad
 _k_friendly_name=Touchpad
 
 [kded5]

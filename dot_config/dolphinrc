@@ -37,7 +37,7 @@ SortingChoice=CaseSensitiveSorting
 SplitView=true
 UseTabForSwitchingSplitView=true
 Version=202
-ViewPropsTimestamp=2023,8,27,2,0,5.492
+ViewPropsTimestamp=2023,8,27,3,33,58.663
 
 [KFileDialog Settings]
 Places Icons Auto-resize=false
@@ -49,8 +49,8 @@ detailViewIconSize=16
 [KPropertiesDialog]
 1707x960 screen: Height=498
 1707x960 screen: Width=431
-1920x1080 screen: Height=692
-1920x1080 screen: Width=599
+1920x1080 screen: Height=532
+1920x1080 screen: Width=469
 eDP Height 1707x960 eDP=458
 eDP Height 1920x1080 eDP=532
 eDP Width 1707x960 eDP=413
@@ -80,6 +80,8 @@ Plugins=appimagethumbnail,audiothumbnail,comicbookthumbnail,cursorthumbnail,djvu
 ToolButtonStyle=IconOnly
 
 [ViewPropertiesDialog]
+1707x960 screen: Height=746
+1707x960 screen: Width=373
 1920x1080 screen: Height=516
 1920x1080 screen: Width=414
 
