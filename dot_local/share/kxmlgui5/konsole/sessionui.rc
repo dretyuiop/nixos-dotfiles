@@ -1,6 +1,6 @@
 <?xml version='1.0'?>
 <!DOCTYPE gui SYSTEM 'kpartgui.dtd'>
-<gui name="session" version="33">
+<gui name="session" version="35">
  <MenuBar>
   <Menu name="file">
    <Action name="file_save_as" group="session-operations"/>
@@ -27,6 +27,8 @@
    <Action name="edit_find_prev" group="session-edit-operations"/>
   </Menu>
   <Menu name="view">
+   <Action name="monitor-once" group="session-view-operations"/>
+   <Action name="monitor-prompt" group="session-view-operations"/>
    <Action name="monitor-silence" group="session-view-operations"/>
    <Action name="monitor-activity" group="session-view-operations"/>
    <Action name="monitor-process-finish" group="session-view-operations"/>
@@ -47,7 +49,10 @@
    <Action name="switch-profile" group="session-settings"/>
   </Menu>
  </MenuBar>
- <ToolBar name="sessionToolbar" noMerge="1">
+ <ToolBar noMerge="1" name="mainToolBar" alreadyVisited="1">
+  <text translationDomain="kxmlgui5">Main Toolbar</text>
+ </ToolBar>
+ <ToolBar noMerge="1" name="sessionToolbar">
   <text translationDomain="konsole">Session Toolbar</text>
   <index>1</index>
   <Spacer name="spacer_0"/>
@@ -55,9 +60,6 @@
   <Action name="edit_find"/>
   <Action name="close-session"/>
   <Action name="hamburger_menu"/>
- </ToolBar>
- <ToolBar name="mainToolBar" noMerge="1" alreadyVisited="1">
-  <text translationDomain="kxmlgui5">Main Toolbar</text>
  </ToolBar>
  <Menu name="session-popup-menu">
   <Action name="edit_copy_contextmenu"/>

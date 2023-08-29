@@ -1,7 +1,10 @@
 MenuBar=Disabled
 
 [$Version]
-update_info=dolphin_detailsmodesettings.upd:rename-leading-padding
+update_info=dolphin_detailsmodesettings.upd:rename-leading-padding,dolphin_detailsmodesettings.upd:move-content-display
+
+[ContentDisplay]
+DirectorySizeCount=false
 
 [ContextMenu]
 ShowAddToPlaces=false
@@ -11,9 +14,6 @@ ShowViewMode=false
 
 [CreateDialog]
 LastMimeType=application/zip
-
-[DetailsMode]
-DirectorySizeCount=false
 
 [ExtractDialog]
 1920x1080 screen: Height=680
@@ -49,8 +49,8 @@ detailViewIconSize=16
 [KPropertiesDialog]
 1707x960 screen: Height=498
 1707x960 screen: Width=431
-1920x1080 screen: Height=532
-1920x1080 screen: Width=469
+1920x1080 screen: Height=628
+1920x1080 screen: Width=569
 eDP Height 1707x960 eDP=458
 eDP Height 1920x1080 eDP=532
 eDP Width 1707x960 eDP=413
@@ -82,8 +82,8 @@ ToolButtonStyle=IconOnly
 [ViewPropertiesDialog]
 1707x960 screen: Height=746
 1707x960 screen: Width=373
-1920x1080 screen: Height=516
-1920x1080 screen: Width=414
+1920x1080 screen: Height=546
+1920x1080 screen: Width=418
 
 [kuick-copy]
 Paths[$e]=/usr/local/bin
