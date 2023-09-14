@@ -8,9 +8,8 @@ idleTime=1200
 idleTime=600000
 
 [AC][HandleButtonEvents]
-lidAction=0
-powerButtonAction=16
-powerDownAction=16
+lidAction=1
+powerButtonAction=8
 triggerLidActionWhenExternalMonitorPresent=false
 
 [AC][RunScript]
@@ -28,9 +27,8 @@ idleTime=600
 idleTime=300000
 
 [Battery][HandleButtonEvents]
-lidAction=0
-powerButtonAction=16
-powerDownAction=16
+lidAction=1
+powerButtonAction=8
 triggerLidActionWhenExternalMonitorPresent=false
 
 [Battery][RunScript]
@@ -40,24 +38,3 @@ scriptPhase=0
 
 [LowBattery]
 icon=battery-low
-
-[LowBattery][BrightnessControl]
-value=30
-
-[LowBattery][DPMSControl]
-idleTime=120
-lockBeforeTurnOff=0
-
-[LowBattery][DimDisplay]
-idleTime=60000
-
-[LowBattery][HandleButtonEvents]
-lidAction=1
-powerButtonAction=16
-powerDownAction=16
-triggerLidActionWhenExternalMonitorPresent=false
-
-[LowBattery][SuspendSession]
-idleTime=300000
-suspendThenHibernate=false
-suspendType=1

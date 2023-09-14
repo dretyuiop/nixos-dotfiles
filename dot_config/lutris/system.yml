@@ -1,5 +1,3 @@
 system:
-  gamemode: true
   mangohud: true
   prime: true
-  pulse_latency: true

@@ -2,11 +2,12 @@
 update_info=spectacle_clipboard.upd:clipboard-settings-change,spectacle_rememberregion.upd:spectacle-migrate-rememberregion
 
 [General]
+autoSaveImage=true
 clipboardGroup=PostScreenshotCopyImage
 rememberLastRectangularRegion=Always
 
 [GuiConfig]
-cropRegion=1468,859,416,137
+cropRegion=490,553,1000,271
 window-position=0,0
 
 [KFileDialog Settings]
@@ -16,4 +17,4 @@ detailViewIconSize=16
 
 [Save]
 lastSaveAsLocation=file:///home/cch/Pictures/dmesg.png
-lastSaveLocation=file:///home/cch/Pictures/Screenshot_20230525_133315.png
+lastSaveLocation=file:///home/cch/Pictures/Screenshot_20230914_142535.png

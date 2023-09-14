@@ -21,12 +21,11 @@ BorderActivateAll=9
 
 [NightColor]
 Active=true
-DayTemperature=6200
-LatitudeAuto=3.1427
-LatitudeFixed=3.45
-LongitudeAuto=101.6951
-LongitudeFixed=101.70458683912977
-NightTemperature=3700
+DayTemperature=5800
+EveningBeginFixed=1900
+Mode=Times
+MorningBeginFixed=0800
+NightTemperature=4000
 
 [Plugins]
 applicationswitcherEnabled=true

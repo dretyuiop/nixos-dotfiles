@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xbel>
-<xbel xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info" xmlns:kdepriv="http://www.kde.org/kdepriv" xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks">
+<xbel xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info" xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks" xmlns:kdepriv="http://www.kde.org/kdepriv">
  <info>
   <metadata owner="http://www.kde.org">
    <kde_places_version>4</kde_places_version>
@@ -168,6 +168,17 @@
    </metadata>
   </info>
  </bookmark>
+ <bookmark href="smb://192.168.1.192/samba">
+  <title>samba</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="network-workgroup"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1693724127/0</ID>
+   </metadata>
+  </info>
+ </bookmark>
  <bookmark href="trash:/">
   <title>Trash</title>
   <info>
@@ -177,17 +188,6 @@
    <metadata owner="http://www.kde.org">
     <ID>1679653089/5</ID>
     <isSystemItem>true</isSystemItem>
-   </metadata>
-  </info>
- </bookmark>
- <bookmark href="smb://192.168.1.192/DATA">
-  <title>DATA</title>
-  <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="network-workgroup"/>
-   </metadata>
-   <metadata owner="http://www.kde.org">
-    <ID>1691436017/0</ID>
    </metadata>
   </info>
  </bookmark>
@@ -313,17 +313,6 @@
    </metadata>
    <metadata owner="http://www.kde.org">
     <OnlyInApp>kdenlive</OnlyInApp>
-   </metadata>
-  </info>
- </bookmark>
- <bookmark href="kdeconnect://535064433e2252c2/">
-  <title>M2102J20SG</title>
-  <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="kdeconnect"/>
-   </metadata>
-   <metadata owner="http://www.kde.org">
-    <ID>1693321724/6</ID>
    </metadata>
   </info>
  </bookmark>

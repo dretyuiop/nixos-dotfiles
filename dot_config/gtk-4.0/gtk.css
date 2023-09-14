@@ -777,7 +777,7 @@ button.opaque:checked:hover {
   background-image: image(rgba(0, 0, 0, 0.05));
 }
 
-button.opaque.keyboard-activating:checked, button.opaque:checked:active {
+button.opaque:checked.keyboard-activating, button.opaque:checked:active {
   background-image: image(rgba(0, 0, 0, 0.3));
 }
 
@@ -944,11 +944,11 @@ button.card:checked:disabled {
   color: rgba(255, 255, 255, 0.4);
 }
 
-button.card.keyboard-activating:checked, button.card:checked:active {
+button.card:checked.keyboard-activating, button.card:checked:active {
   background-image: none;
 }
 
-button.card.has-open-popup:checked {
+button.card:checked.has-open-popup {
   background-image: none;
 }
 
@@ -1428,13 +1428,13 @@ list > row button.image-button:not(.flat):checked {
 }
 
 
-list > row button.image-button.suggested-action:not(.flat) {
+list > row button.image-button:not(.flat).suggested-action {
   background-color: #5b9bf8;
   color: #FFFFFF;
 }
 
 
-list > row button.image-button.destructive-action:not(.flat) {
+list > row button.image-button:not(.flat).destructive-action {
   background-color: #F44336;
   color: #FFFFFF;
 }
@@ -2206,13 +2206,13 @@ treeview.view:drop(active) {
   box-shadow: none;
 }
 
-columnview.view.after:drop(active),
-treeview.view.after:drop(active) {
+columnview.view:drop(active).after,
+treeview.view:drop(active).after {
   border-top-style: none;
 }
 
-columnview.view.before:drop(active),
-treeview.view.before:drop(active) {
+columnview.view:drop(active).before,
+treeview.view:drop(active).before {
   border-bottom-style: none;
 }
 
@@ -2223,13 +2223,13 @@ treeview.view > dndtarget:drop(active) {
   border-color: alpha(currentColor, 0.06);
 }
 
-columnview.view > dndtarget.after:drop(active),
-treeview.view > dndtarget.after:drop(active) {
+columnview.view > dndtarget:drop(active).after,
+treeview.view > dndtarget:drop(active).after {
   border-top-style: none;
 }
 
-columnview.view > dndtarget.before:drop(active),
-treeview.view > dndtarget.before:drop(active) {
+columnview.view > dndtarget:drop(active).before,
+treeview.view > dndtarget:drop(active).before {
   border-bottom-style: none;
 }
 
@@ -3101,19 +3101,19 @@ scrollbar.overlay-indicator:not(.dragging):not(.hovering) button:disabled {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-scrollbar.overlay-indicator.horizontal:not(.dragging):not(.hovering) > range > trough > slider {
+scrollbar.overlay-indicator:not(.dragging):not(.hovering).horizontal > range > trough > slider {
   min-width: 24px;
 }
 
-scrollbar.overlay-indicator.horizontal:not(.dragging):not(.hovering) button {
+scrollbar.overlay-indicator:not(.dragging):not(.hovering).horizontal button {
   min-width: 8px;
 }
 
-scrollbar.overlay-indicator.vertical:not(.dragging):not(.hovering) > range > trough > slider {
+scrollbar.overlay-indicator:not(.dragging):not(.hovering).vertical > range > trough > slider {
   min-height: 24px;
 }
 
-scrollbar.overlay-indicator.vertical:not(.dragging):not(.hovering) button {
+scrollbar.overlay-indicator:not(.dragging):not(.hovering).vertical button {
   min-height: 8px;
 }
 
@@ -4345,7 +4345,7 @@ row > box.header > .prefixes:dir(rtl) {
   margin-left: 6px;
 }
 
-row.entry.activatable.focused:not(:selected):hover, row.entry.activatable.focused:not(:selected):active {
+row.entry:not(:selected).activatable.focused:hover, row.entry:not(:selected).activatable.focused:active {
   background-color: transparent;
 }
 
@@ -4417,21 +4417,21 @@ list.boxed-list > row.expander row.header, row.expander list.nested > row {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-list.content > row.activatable:not(:selected):hover, list.content > row.expander row.header.activatable:not(:selected):hover,
-list.boxed-list > row.activatable:not(:selected):hover,
-list.boxed-list > row.expander row.header.activatable:not(:selected):hover, row.expander list.nested > row.activatable:not(:selected):hover {
+list.content > row:not(:selected).activatable:hover, list.content > row.expander row.header:not(:selected).activatable:hover,
+list.boxed-list > row:not(:selected).activatable:hover,
+list.boxed-list > row.expander row.header:not(:selected).activatable:hover, row.expander list.nested > row:not(:selected).activatable:hover {
   background-color: alpha(currentColor, 0.08);
 }
 
-list.content > row.activatable:not(:selected):active, list.content > row.expander row.header.activatable:not(:selected):active,
-list.boxed-list > row.activatable:not(:selected):active,
-list.boxed-list > row.expander row.header.activatable:not(:selected):active, row.expander list.nested > row.activatable:not(:selected):active {
+list.content > row:not(:selected).activatable:active, list.content > row.expander row.header:not(:selected).activatable:active,
+list.boxed-list > row:not(:selected).activatable:active,
+list.boxed-list > row.expander row.header:not(:selected).activatable:active, row.expander list.nested > row:not(:selected).activatable:active {
   background-color: alpha(currentColor, 0.12);
 }
 
-list.content > row.activatable.has-open-popup:not(:selected), list.content > row.expander row.header.activatable.has-open-popup:not(:selected),
-list.boxed-list > row.activatable.has-open-popup:not(:selected),
-list.boxed-list > row.expander row.header.activatable.has-open-popup:not(:selected), row.expander list.nested > row.activatable.has-open-popup:not(:selected) {
+list.content > row:not(:selected).activatable.has-open-popup, list.content > row.expander row.header:not(:selected).activatable.has-open-popup,
+list.boxed-list > row:not(:selected).activatable.has-open-popup,
+list.boxed-list > row.expander row.header:not(:selected).activatable.has-open-popup, row.expander list.nested > row:not(:selected).activatable.has-open-popup {
   background-color: alpha(currentColor, 0.03);
 }
 
@@ -4497,19 +4497,19 @@ list.boxed-list > row.expander {
   border: none;
 }
 
-list.content > row:first-child, list.content > row.expander:first-child row.header,
+list.content > row:first-child, list.content > row:first-child.expander row.header,
 list.boxed-list > row:first-child,
-list.boxed-list > row.expander:first-child row.header {
+list.boxed-list > row:first-child.expander row.header {
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
 }
 
-list.content > row:last-child, list.content > row.expander:last-child:not(:checked), list.content > row.expander:last-child:not(:checked) row.header, list.content > row.expander:last-child:checked list.nested, list.content > row.expander:last-child:checked list.nested > row:last-child,
+list.content > row:last-child, list.content > row:last-child.expander:not(:checked), list.content > row:last-child.expander:not(:checked) row.header, list.content > row:last-child.expander:checked list.nested, list.content > row:last-child.expander:checked list.nested > row:last-child,
 list.boxed-list > row:last-child,
-list.boxed-list > row.expander:last-child:not(:checked),
-list.boxed-list > row.expander:last-child:not(:checked) row.header,
-list.boxed-list > row.expander:last-child:checked list.nested,
-list.boxed-list > row.expander:last-child:checked list.nested > row:last-child {
+list.boxed-list > row:last-child.expander:not(:checked),
+list.boxed-list > row:last-child.expander:not(:checked) row.header,
+list.boxed-list > row:last-child.expander:checked list.nested,
+list.boxed-list > row:last-child.expander:checked list.nested > row:last-child {
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
   border-bottom-width: 0;
@@ -4833,12 +4833,12 @@ filechooserbutton:drop(active) {
   background-color: #2d3036;
 }
 
-.sidebar:not(separator):dir(ltr), .sidebar.left:not(separator), .sidebar.left:not(separator):dir(rtl) {
+.sidebar:not(separator):dir(ltr), .sidebar:not(separator).left, .sidebar:not(separator).left:dir(rtl) {
   border-right: 1px solid rgba(255, 255, 255, 0.12);
   border-left: none;
 }
 
-.sidebar:not(separator):dir(rtl), .sidebar.right:not(separator) {
+.sidebar:not(separator):dir(rtl), .sidebar:not(separator).right {
   border-left: 1px solid rgba(255, 255, 255, 0.12);
   border-right: none;
 }
@@ -5415,12 +5415,12 @@ headerbar windowcontrols {
   border-spacing: 6px;
 }
 
-headerbar windowcontrols.start:not(.empty):dir(ltr), headerbar windowcontrols.end:not(.empty):dir(rtl) {
+headerbar windowcontrols:not(.empty).start:dir(ltr), headerbar windowcontrols:not(.empty).end:dir(rtl) {
   margin-right: 9px;
   margin-left: 9px;
 }
 
-headerbar windowcontrols.start:not(.empty):dir(rtl), headerbar windowcontrols.end:not(.empty):dir(ltr) {
+headerbar windowcontrols:not(.empty).start:dir(rtl), headerbar windowcontrols:not(.empty).end:dir(ltr) {
   margin-left: 9px;
   margin-right: 9px;
 }
@@ -5500,7 +5500,7 @@ stackswitcher.linked:not(.vertical) > button:not(.suggested-action):not(.destruc
   box-shadow: none;
 }
 
-stackswitcher.linked:not(.vertical) > button.text-button:not(.suggested-action):not(.destructive-action) {
+stackswitcher.linked:not(.vertical) > button:not(.suggested-action):not(.destructive-action).text-button {
   min-width: 100px;
 }
 
@@ -5899,12 +5899,12 @@ event.slanted-end, event.slanted-start:dir(rtl) {
   border-radius: 3px 0 0 3px;
 }
 
-event.color-dark:not(.timed) {
+event:not(.timed).color-dark {
   color: white;
   outline-color: rgba(0, 0, 0, 0.3);
 }
 
-event.timed, event.color-light:not(.timed) {
+event.timed, event:not(.timed).color-light {
   color: alpha(black, 0.75);
   outline-color: rgba(255, 255, 255, 0.5);
 }
@@ -5962,9 +5962,7 @@ datechooser navigator label {
   font-weight: bold;
 }
 
-datechooser navigator button,
-datechooser navigator button.image-button,
-datechooser navigator button.toggle {
+datechooser navigator button, datechooser navigator button.image-button {
   min-height: 36px;
   min-width: 36px;
   padding: 0;
@@ -7873,3 +7871,4 @@ FIXME this is really an API */
 @define-color popover_fg_color #FFFFFF;
 @define-color shade_color rgba(255, 255, 255, 0.12);
 @define-color scrollbar_outline_color rgba(255, 255, 255, 0.12);
+@import 'colors.css';

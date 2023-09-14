@@ -575,7 +575,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   -cinnamon-caption-spacing: 4px;
 }
 
-.window-caption#selected {
+#selected.window-caption {
   background-color: #5b9bf8;
   color: #FFFFFF;
   border: 1px solid #5b9bf8;
@@ -583,7 +583,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .expo-workspaces-name-entry,
-.expo-workspaces-name-entry#selected {
+#selected.expo-workspaces-name-entry {
   height: 15px;
   border-radius: 6px;
   font-size: 9pt;
@@ -595,7 +595,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .expo-workspaces-name-entry:focus,
-.expo-workspaces-name-entry#selected:focus {
+#selected.expo-workspaces-name-entry:focus {
   border: 1px solid #5b9bf8;
   background-color: #5b9bf8;
   color: #FFFFFF;
@@ -611,7 +611,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   border-radius: 6px;
 }
 
-.expo-workspace-thumbnail-frame#active {
+#active.expo-workspace-thumbnail-frame {
   border: 4px solid #5b9bf8;
   background-color: black;
   border-radius: 6px;
