@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xbel>
-<xbel xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks" xmlns:kdepriv="http://www.kde.org/kdepriv" xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info">
+<xbel xmlns:kdepriv="http://www.kde.org/kdepriv" xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info" xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks">
  <info>
   <metadata owner="http://www.kde.org">
    <kde_places_version>4</kde_places_version>
@@ -60,6 +60,17 @@
    <metadata owner="http://www.kde.org">
     <ID>1679653089/2</ID>
     <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/cch/Nextcloud">
+  <title>Nextcloud</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="folder-meocloud"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1698852144/0</ID>
    </metadata>
   </info>
  </bookmark>
@@ -170,6 +181,17 @@
  </bookmark>
  <bookmark href="smb://192.168.1.192/samba">
   <title>samba</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="network-workgroup"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1700900116/0</ID>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="smb://192.168.1.192/server">
+  <title>server</title>
   <info>
    <metadata owner="http://freedesktop.org">
     <bookmark:icon name="network-workgroup"/>
@@ -316,26 +338,21 @@
    </metadata>
   </info>
  </bookmark>
- <bookmark href="kdeconnect://535064433e2252c2/">
-  <title>M2102J20SG</title>
+ <separator>
   <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="kdeconnect"/>
-   </metadata>
    <metadata owner="http://www.kde.org">
-    <ID>1694684643/2</ID>
+    <UDI>/org/kde/fstab/fuse.sshfs/run/user/1000/178fd246_09e8_4ecf_ba07_98e186864608</UDI>
+    <isSystemItem>true</isSystemItem>
+    <IsHidden>true</IsHidden>
    </metadata>
   </info>
- </bookmark>
- <bookmark href="kdeconnect://_6c8dd372_294b_44af_98e2_72e6a7acb486_/">
-  <title>Modern-14</title>
+ </separator>
+ <separator>
   <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="kdeconnect"/>
-   </metadata>
    <metadata owner="http://www.kde.org">
-    <ID>1694685681/4</ID>
+    <UDI>/org/kde/solid/udev/sys/devices/pci0000:00/0000:00:08.1/0000:34:00.4/usb3/3-1</UDI>
+    <isSystemItem>true</isSystemItem>
    </metadata>
   </info>
- </bookmark>
+ </separator>
 </xbel>

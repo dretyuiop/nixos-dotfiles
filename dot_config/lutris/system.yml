@@ -1,3 +1,4 @@
 system:
+  gamemode: false
   mangohud: true
   prime: true

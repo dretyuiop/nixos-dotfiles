@@ -14,6 +14,7 @@ Icon size for left and right sidebar buttons=32
 Modified Notification=false
 Mouse back button action=0
 Mouse forward button action=0
+Open New Tab To The Right Of Current=false
 Output History Limit=100
 Recent File List Entry Count=10
 Restore Window Configuration=true
@@ -38,8 +39,8 @@ Tab Middle Click Close Document=true
 Tabbar Tab Limit=0
 
 [KFileDialog Settings]
-Recent Files[$e]=import.sh,file:$HOME/Documents/authelia.yml,file:$HOME/Documents/University/Algorithm/Assignment/Assignment 2/video.txt,file:$HOME/Documents/University/Database/tutorial/scripts.sql
-Recent URLs[$e]=file:$HOME/Documents/University/Algorithm/Assignment/,file:$HOME/Documents/University/Algorithm/tutorial/,file:$HOME/Documents/University/OS-xmu/Assignment/,file:$HOME/Documents/University/Database/tutorial/,file:$HOME/.deepinwine/Deepin-WeChat/drive_c/users/cch/My Documents/WeChat Files/wxid_jhqrrvpeavgc22/FileStorage/File/2023-06/,file:$HOME/Documents/University/Algorithm/,file:$HOME/Documents/University/,file:$HOME/Documents/University/Algorithm/Assignment/Assignment 2/,file:$HOME/,file:$HOME/Downloads/,file:$HOME/Documents/
+Recent Files[$e]=import.sh,file:$HOME/Documents/University/Graphic Design/exam.txt,file:$HOME/Documents/University/Algorithm/Assignment/Assignment 2/video.txt,file:$HOME/Documents/University/Database/tutorial/scripts.sql
+Recent URLs[$e]=file:$HOME/Documents/University/Algorithm/tutorial/,file:$HOME/Documents/University/OS-xmu/Assignment/,file:$HOME/Documents/University/Database/tutorial/,file:$HOME/Documents/University/Algorithm/,file:$HOME/Documents/University/,file:$HOME/Documents/University/Algorithm/Assignment/Assignment 2/,file:$HOME/,file:$HOME/Downloads/,file:$HOME/Documents/,file:$HOME/Documents/University/Graphic Design/
 detailViewIconSize=16
 
 [KPropertiesDialog]
@@ -94,7 +95,7 @@ Fallback Encoding=ISO 8859-15
 Animate Bracket Matching=false
 Auto Color Theme Selection=false
 Color Theme=Dracula
-Font=JetBrainsMono Nerd Font,14,-1,5,50,0,0,0,0,0
+Font=JetBrainsMono NF,14,-1,5,50,0,0,0,0,0
 Line Height Multiplier=1
 Show Indentation Lines=false
 Show Whole Bracket Expression=false
@@ -162,7 +163,7 @@ Word Completion Remove Tail=true
 
 [KTextEditor::Search]
 Replace History=Noto Sans,example.com,,192.168.1.7,authelia_net,.,chewfamily.party,container,$container,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,11,7,10,12,9,writers-preference,srv,Moving-scripts,Important!!/Scripts,hwmon6
-Search History=/usr/lib,update,cores,/co,/usr,core,menu_show_core_updater,session,rootless,add,op_,chezmoi,SF Pro,chewfamily.party,#,192.168.1.6,chewfamily.paty,caddy-docker-proxy,$APPDATA,example.com,podman,upnp,install,pod,$,admind,bin,encod,h2,hostname,postgres,v3,mutate,print,best fitne,stop_criteria,num_genes,fitness,get_initial_values(),fitness_func,sol_per,swap,swap_2,tournam,super,15,12,8,5,readers-preference,isinbox,(isInboxZero\\, isWindowBlurred) ,a(isInboxZero\\, isWindowBlurred) ,services,pdf,arc,reader,qt6_found,found,<=,Focus,focus,FUNCTION,time,fisher,user,trans,power,np.int,tee,pacman -S,-S,buf},march,.config,tickless,(,([0]=,modprobe,aria2,sudo cp,cp,package,environ,fcit,steam,frame,limit,control,framerate,syncinterval,docker,dotnet,LIB,lib/,lib,init,architec,arch,zen
+Search History=0x1128b,_0x1128b5,backuptransportclient,su,$CONFIG_FILE,kuketz,lib32,headerbar,systemctl,/usr/lib,update,cores,/co,/usr,core,menu_show_core_updater,session,rootless,add,op_,chezmoi,SF Pro,chewfamily.party,#,192.168.1.6,chewfamily.paty,caddy-docker-proxy,$APPDATA,example.com,podman,upnp,install,pod,$,admind,bin,encod,h2,hostname,postgres,v3,mutate,print,best fitne,stop_criteria,num_genes,fitness,get_initial_values(),fitness_func,sol_per,swap,swap_2,tournam,super,15,12,8,5,readers-preference,isinbox,(isInboxZero\\, isWindowBlurred) ,a(isInboxZero\\, isWindowBlurred) ,services,pdf,arc,reader,qt6_found,found,<=,Focus,focus,FUNCTION,time,fisher,user,trans,power,np.int,tee,pacman -S,-S,buf},march,.config,tickless,(,([0]=,modprobe,aria2,sudo cp,cp,package,environ,fcit,steam,frame,limit,control,framerate,syncinterval
 
 [Konsole]
 AutoSyncronize=true

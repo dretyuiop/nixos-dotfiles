@@ -1,6 +1,7 @@
 {
+    "window.titleBarStyle": "custom",
     "security.workspace.trust.untrustedFiles": "open",
-    "editor.fontFamily": "JetBrainsMono Nerd Font",
+    "editor.fontFamily": "JetBrainsMono NF",
     "editor.fontLigatures": true,
     "editor.fontSize": 17,
     "security.workspace.trust.startupPrompt": "never",
@@ -45,13 +46,11 @@
         ".cpp": "cd $dir && g++ -g '$fileName' -o '$fileNameWithoutExt' && $dir'$fileNameWithoutExt'",
     },
     "code-runner.executorMap": {
-    
-
         "javascript": "node",
         "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
         "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
         "zig": "zig run",
-        "cpp": "cd $dir && g++ -g '$fileName' -o '$fileNameWithoutExt' && $dir'$fileNameWithoutExt'",
+        "cpp": "cd $dir && g++ -lglut -lGL -lGLU -g '$fileName' -o '$fileNameWithoutExt' && $dir'$fileNameWithoutExt' && rm $dir'$fileNameWithoutExt'",
         "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
         "php": "php",
         "python": "python -u",
@@ -104,5 +103,19 @@
     "explorer.confirmDelete": false,
     "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
     "code-runner.saveFileBeforeRun": true,
-    "git.openRepositoryInParentFolders": "never"
+    "git.openRepositoryInParentFolders": "never",
+    "code-runner.fileDirectoryAsCwd": true,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.languageIdToFileExtensionMap": {
+
+        "bat": ".bat",
+        "powershell": ".ps1",
+        "typescript": ".ts"
+    },
+    "syncSettings.crons": {
+        "review": "0 * * * *",
+    },
+    "syncSettings.additionalFiles": [
+
+    ]
 }

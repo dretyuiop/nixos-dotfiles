@@ -78,8 +78,8 @@
    <Action name="stop"/>
    <Separator/>
    <Action name="panels"/>
-   <Menu noMerge="1" icon="edit-select-text" name="location_bar">
-    <text translationDomain="dolphin" context="@title:menu">Location Bar</text>
+   <Menu noMerge="1" name="location_bar" icon="edit-select-text">
+    <text context="@title:menu" translationDomain="dolphin">Location Bar</text>
     <Action name="editable_location"/>
     <Action name="replace_location"/>
    </Menu>
@@ -96,6 +96,7 @@
    <Action name="bookmarks"/>
    <Action name="closed_tabs"/>
   </Menu>
+  <Separator weakSeparator="1"/>
   <Separator weakSeparator="1"/>
   <Separator weakSeparator="1"/>
   <Menu noMerge="1" alreadyVisited="1" name="tools">
@@ -135,10 +136,11 @@
   </Menu>
  </MenuBar>
  <ToolBar noMerge="1" alreadyVisited="1" name="mainToolBar">
-  <text translationDomain="dolphin" context="@title:menu">Main Toolbar</text>
+  <text context="@title:menu" translationDomain="dolphin">Main Toolbar</text>
   <Action name="go_back"/>
   <Action name="go_forward"/>
   <Action name="go_up"/>
+  <Action name="view_redisplay"/>
   <Separator name="separator_0"/>
   <Action name="url_navigators"/>
   <Action name="show_hidden_files"/>
@@ -184,7 +186,7 @@
   <Action priority="0" name="view_zoom_in"/>
   <Action priority="0" name="view_zoom_reset"/>
   <Action priority="0" name="view_zoom_out"/>
-  <Action priority="0" shortcut="Ctrl+X" name="edit_cut"/>
+  <Action shortcut="Ctrl+X" priority="0" name="edit_cut"/>
   <Action priority="0" name="edit_copy"/>
   <Action priority="0" name="edit_paste"/>
   <Action priority="0" name="toggle_search"/>
