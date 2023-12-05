@@ -444,23 +444,8 @@ plugin=org.kde.plasma.bluetooth
 [Containments][8][Applets][54][Configuration]
 PreloadWeight=0
 
-[Containments][8][Applets][56]
-immutability=1
-plugin=com.github.prayag2.controlcentre
-
 [Containments][8][Applets][56][Configuration]
-PreloadWeight=100
-
-[Containments][8][Applets][56][Configuration][Appearance]
-isDarkTheme=true
-showKDEConnect=true
-showNightColor=false
-showPercentage=true
-transparency=true
-
-[Containments][8][Applets][56][Configuration][ConfigDialog]
-DialogHeight=660
-DialogWidth=880
+PreloadWeight=42
 
 [Containments][8][Applets][57]
 immutability=1
@@ -506,10 +491,10 @@ DialogWidth=1920
 PreloadWeight=42
 
 [Containments][8][General]
-extraItems=org.kde.kdeconnect,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardlayout,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.manage-inputmethod,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.battery,org.kde.plasma.bluetooth,com.github.prayag2.controlcentre,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.kscreen
+extraItems=org.kde.kdeconnect,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardlayout,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.manage-inputmethod,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.kscreen
 hiddenItems=org.kde.plasma.weather,org.kde.plasma.nightcolorcontrol,dev.jhyub.supergfxctl,org.kde.kdeconnect,ryzen-controller,xdm-app,firewall-applet,org.kde.kalendar.contact,org.kde.plasma.mediacontroller
 knownItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.volume,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.kscreen
-shownItems=org.kde.plasma.clipboard,org.kde.plasma.networkmanagement,56623116,org.kde.plasma.battery,Fcitx,com.github.prayag2.controlcentre,Optimus Manager Qt,Fancontrol-GUI_fancontrold.gui,org.kde.plasma.volume,org.kde.plasma.bluetooth
+shownItems=org.kde.plasma.clipboard,org.kde.plasma.networkmanagement,56623116,org.kde.plasma.battery,Fcitx,Optimus Manager Qt,Fancontrol-GUI_fancontrold.gui,org.kde.plasma.volume,org.kde.plasma.bluetooth
 
 [ScreenMapping]
 itemsOnDisabledScreens=
