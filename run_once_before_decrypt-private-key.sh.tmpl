@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-
-if [ ! -f ~/.key.txt ]; then
-    age --decrypt --output ~/.key.txt "{{ .chezmoi.sourceDir }}/key.txt.age"
-    chmod 600 ~/.key.txt
-fi

@@ -1,6 +1,10 @@
-encryption = "age"
-[age]
-    identity = "~/.key.txt"
-    recipient = "age1c7krejucngqssyp9tx3l4p72y3vk3epngl9ect7lyv7vwjd0uymqsar4ah"
+{{ $passphrase := promptStringOnce . "passphrase" "passphrase" -}}
+
+encryption = "gpg"
+[data]
+    passphrase = {{ $passphrase | quote }}
+[gpg]
+    symmetric = true
+    args = ["--batch", "--passphrase", {{ $passphrase | quote }}, "--no-symkey-cache"]
 [merge]
     command = "meld"
