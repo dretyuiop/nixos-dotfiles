@@ -17,7 +17,7 @@ _k_friendly_name=Keyboard Layout Switcher
 
 [brave-browser.desktop]
 _k_friendly_name=Brave
-_launch=Meta+B,none,Brave
+_launch=none,none,Brave
 new-private-window=none,none,New Incognito Window
 new-window=none,none,New Window
 
@@ -169,7 +169,7 @@ Walk Through Windows of Current Application Alternative (Reverse)=none,,Walk Thr
 Window Above Other Windows=none,,Keep Window Above Others
 Window Below Other Windows=none,,Keep Window Below Others
 Window Close=Alt+F4\tMeta+Q,Alt+F4,Close Window
-Window Fullscreen=none,,Make Window Fullscreen
+Window Fullscreen=Alt+F11,,Make Window Fullscreen
 Window Grow Horizontal=none,,Expand Window Horizontally
 Window Grow Vertical=none,,Expand Window Vertically
 Window Lower=none,,Lower Window
@@ -241,8 +241,15 @@ Window to Screen 6=none,,Window to Screen 6
 Window to Screen 7=none,,Window to Screen 7
 _k_friendly_name=KWin
 view_actual_size=Meta+0,Meta+0,Zoom to Actual Size
-view_zoom_in=Meta++,Meta++,Zoom In
+view_zoom_in=Meta++,Meta++\tMeta+=,Zoom In
 view_zoom_out=Meta+-,Meta+-,Zoom Out
+
+[librewolf.desktop]
+_k_friendly_name=LibreWolf
+_launch=Meta+B,none,LibreWolf
+new-private-window=none,none,New Private Window
+new-window=none,none,New Window
+profile-manager-window=none,none,Open the Profile Manager
 
 [mediacontrol]
 _k_friendly_name=Media Controller

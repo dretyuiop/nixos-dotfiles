@@ -10,7 +10,8 @@ clipboardGroup=PostScreenshotCopyImage
 rememberLastRectangularRegion=Always
 
 [GuiConfig]
-cropRegion=325,572,694,416
+cropRegion=477,74,900,895
+videoFormat=mp4
 window-position=0,0
 
 [KFileDialog Settings]
@@ -20,4 +21,4 @@ detailViewIconSize=16
 
 [Save]
 lastSaveAsLocation=file:///home/cch/Pictures/dmesg.png
-lastSaveLocation=file:///home/cch/Pictures/Screenshot_20231205_210220.png
+lastSaveLocation=file:///home/cch/Pictures/Screenshot_20231229_220508.png

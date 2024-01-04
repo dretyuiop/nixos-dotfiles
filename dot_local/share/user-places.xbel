@@ -355,4 +355,15 @@
    </metadata>
   </info>
  </separator>
+ <bookmark href="kdeconnect://178fd246_09e8_4ecf_ba07_98e186864608/">
+  <title>POCO X3 Pro</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="kdeconnect"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1704379717/4</ID>
+   </metadata>
+  </info>
+ </bookmark>
 </xbel>

@@ -3,6 +3,6 @@ if status is-interactive
     zoxide init fish | source
     starship init fish | source
     source ~/.config/fish/conf.d/autopair.fish
-
+    set -x DOCKER_HOST unix://$XDG_RUNTIME_DIR/podman/podman.sock
 end
 

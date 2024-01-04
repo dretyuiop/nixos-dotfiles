@@ -1,7 +1,8 @@
 # Change the default prompt format
-format = """\
-[╭╴](238)$shell$all\
-[╰─](238)$character"""
+format = """
+[╭╴](238)$shell$all$line_break\
+[╰─](238)$character
+"""
 
 # Inserts a blank line between shell prompts
 add_newline = true
