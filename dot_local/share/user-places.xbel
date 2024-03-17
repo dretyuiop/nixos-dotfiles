@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xbel>
-<xbel xmlns:kdepriv="http://www.kde.org/kdepriv" xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info" xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks">
+<xbel xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks" xmlns:kdepriv="http://www.kde.org/kdepriv" xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info">
  <info>
   <metadata owner="http://www.kde.org">
    <kde_places_version>4</kde_places_version>
@@ -144,8 +144,8 @@
    </metadata>
   </info>
  </bookmark>
- <bookmark href="file:///home/cch/torrents">
-  <title>torrents</title>
+ <bookmark href="file:///home/cch/Torrents">
+  <title>Torrents</title>
   <info>
    <metadata owner="http://freedesktop.org">
     <bookmark:icon name="folder-torrent"/>
@@ -176,17 +176,6 @@
    <metadata owner="http://www.kde.org">
     <ID>1679653089/4</ID>
     <isSystemItem>true</isSystemItem>
-   </metadata>
-  </info>
- </bookmark>
- <bookmark href="smb://192.168.1.192/samba">
-  <title>samba</title>
-  <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="network-workgroup"/>
-   </metadata>
-   <metadata owner="http://www.kde.org">
-    <ID>1700900116/0</ID>
    </metadata>
   </info>
  </bookmark>
@@ -242,6 +231,7 @@
    <metadata owner="http://www.kde.org">
     <UDI>/org/freedesktop/UDisks2/block_devices/dm_2d0</UDI>
     <isSystemItem>true</isSystemItem>
+    <uuid>1b89b102-9fe9-4c3b-98a2-74d46f503ea4</uuid>
    </metadata>
   </info>
  </separator>
@@ -251,6 +241,7 @@
     <UDI>/org/freedesktop/UDisks2/block_devices/nvme0n1p2</UDI>
     <isSystemItem>true</isSystemItem>
     <IsHidden>true</IsHidden>
+    <uuid>8665d78a-9da1-4ada-835c-4099173c6772</uuid>
    </metadata>
   </info>
  </separator>
@@ -259,6 +250,7 @@
    <metadata owner="http://www.kde.org">
     <UDI>/org/freedesktop/UDisks2/block_devices/sda2</UDI>
     <isSystemItem>true</isSystemItem>
+    <uuid>b2c8-40d2</uuid>
    </metadata>
   </info>
  </separator>
@@ -275,6 +267,7 @@
    <metadata owner="http://www.kde.org">
     <UDI>/org/freedesktop/UDisks2/block_devices/sda1</UDI>
     <isSystemItem>true</isSystemItem>
+    <uuid>b77b-020c</uuid>
    </metadata>
   </info>
  </separator>
@@ -355,6 +348,23 @@
    </metadata>
   </info>
  </separator>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/freedesktop/UDisks2/block_devices/loop0</UDI>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </separator>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/freedesktop/UDisks2/block_devices/sda1</UDI>
+    <isSystemItem>true</isSystemItem>
+    <uuid>d25c-a1bd</uuid>
+   </metadata>
+  </info>
+ </separator>
  <bookmark href="kdeconnect://178fd246_09e8_4ecf_ba07_98e186864608/">
   <title>POCO X3 Pro</title>
   <info>
@@ -362,7 +372,7 @@
     <bookmark:icon name="kdeconnect"/>
    </metadata>
    <metadata owner="http://www.kde.org">
-    <ID>1704379717/4</ID>
+    <ID>1710673820/4</ID>
    </metadata>
   </info>
  </bookmark>

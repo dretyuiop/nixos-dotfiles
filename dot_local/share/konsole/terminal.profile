@@ -11,6 +11,7 @@ CursorShape=1
 UseCustomCursorColor=false
 
 [General]
+Command=/bin/fish
 DimWhenInactive=true
 InvertSelectionColors=true
 Name=terminal

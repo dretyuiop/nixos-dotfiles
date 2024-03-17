@@ -46,6 +46,7 @@
         ".cpp": "cd $dir && g++ -g '$fileName' -o '$fileNameWithoutExt' && $dir'$fileNameWithoutExt'",
     },
     "code-runner.executorMap": {
+    
 
         "javascript": "node",
         "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
@@ -119,5 +120,7 @@
     "syncSettings.additionalFiles": [
     
 
-    ]
+    ],
+    "python.pythonPath": "/usr/bin/python",
+    "python.experiments.enabled": false
 }

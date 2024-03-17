@@ -10,9 +10,13 @@ clipboardGroup=PostScreenshotCopyImage
 rememberLastRectangularRegion=Always
 
 [GuiConfig]
-cropRegion=477,74,900,895
+cropRegion=782,238,562,710
 videoFormat=mp4
 window-position=0,0
+
+[ImageSave]
+lastImageSaveLocation=file:///home/cch/Pictures/Screenshots/Screenshot_20240316_214317.png
+translatedScreenshotsFolder=Screenshots
 
 [KFileDialog Settings]
 Recent Files[$e]=dmesg.png,file:$HOME/Pictures/dmesg.png
@@ -21,4 +25,7 @@ detailViewIconSize=16
 
 [Save]
 lastSaveAsLocation=file:///home/cch/Pictures/dmesg.png
-lastSaveLocation=file:///home/cch/Pictures/Screenshot_20231229_220508.png
+lastSaveLocation=file:///home/cch/Pictures/Screenshot_20240228_234621.png
+
+[VideoSave]
+translatedScreencastsFolder=Screencasts

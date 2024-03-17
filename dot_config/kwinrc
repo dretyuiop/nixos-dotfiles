@@ -8,13 +8,15 @@ LatencyPolicy=Medium
 
 [Desktops]
 Id_1=6f02df91-c01b-46ad-8481-b70c3aa8eaae
-Id_2=f743f208-f926-4473-b734-56fb6b8a0cc0
-Name_2=New Desktop
+Id_2=e7e8fa28-5682-4c72-9aed-402b3a20f12c
 Number=2
 Rows=1
 
 [Effect-blur]
 BlurStrength=11
+
+[Effect-overview]
+BorderActivate=9
 
 [Effect-windowview]
 BorderActivateAll=9
@@ -23,7 +25,8 @@ BorderActivateAll=9
 Active=true
 DayTemperature=5800
 EveningBeginFixed=1900
-Mode=Times
+LatitudeAuto=3.15
+LongitudeAuto=101.64
 MorningBeginFixed=0800
 NightTemperature=4000
 
@@ -63,6 +66,9 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 [Tiling][44bea82b-2de0-5111-957d-06ed811de8d0]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][76692f6f-9699-514b-8b92-2f2e0dd1e894]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][a3d991e5-e4d6-5b87-b0c7-d6949c612be9]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
@@ -76,11 +82,8 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Wayland]
-InputMethod[$e]=/usr/share/applications/org.fcitx.Fcitx5.desktop
+InputMethod[$e]=/usr/share/applications/fcitx5-wayland-launcher.desktop
 VirtualKeyboardEnabled=true
-
-[Xwayland]
-Scale=1
 
 [org.kde.kdecoration2]
 BorderSize=None

@@ -11,8 +11,8 @@ DefaultProfile=terminal.profile
 ConfigVersion=1
 
 [KFileDialog Settings]
-Recent Files[$e]=ryzenadj-time-start.txt,file:$HOME/Desktop/ryzenadj-time-start.txt
-Recent URLs[$e]=file:$HOME/Desktop/
+Recent Files[$e]=ryzenadj-time-start.txt,file:$HOME/.ssh/id_rsa
+Recent URLs[$e]=file:$HOME/Desktop/,file:$HOME/.ssh/,file:$HOME/Documents/,file:$HOME/
 detailViewIconSize=16
 
 [KonsoleWindow]
@@ -35,20 +35,20 @@ ShowWindowTitleOnTitleBar=true
 1707x960 screen: YPosition=28
 1745x982 screen: Window-Maximized=true
 1829x1029 screen: Window-Maximized=true
-1920x1080 screen: Height=1080
-1920x1080 screen: Width=1920
+1920x1080 screen: Height=999
+1920x1080 screen: Width=960
 1920x1080 screen: Window-Maximized=true
 1920x1080 screen: XPosition=706
-1920x1080 screen: YPosition=360
+1920x1080 screen: YPosition=30
 2 screens: Height=730
 2 screens: Width=1238
 2 screens: Window-Maximized=true
 2021x1137 screen: Window-Maximized=true
 2259x1271 screen: Window-Maximized=true
+2560x1440 screen: Window-Maximized=true
 640x360 screen: Window-Maximized=true
 960x540 screen: Window-Maximized=true
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAQAAAAAAAAAAAAAAAPwCAAAAAvsAAAAiAFEAdQBpAGMAawBDAG8AbQBtAGEAbgBkAHMARABvAGMAawAAAAAA/////wAAAaYA////+wAAABwAUwBTAEgATQBhAG4AYQBnAGUAcgBEAG8AYwBrAAAAAAD/////AAABMAD///8AAAeAAAAD5wAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAABwAcwBlAHMAcwBpAG8AbgBUAG8AbwBsAGIAYQByAAAAAAD/////AAAAAAAAAAA=
 ToolBarsMovable=Disabled
 eDP=eDP
 eDP Height 1707x960 eDP=387

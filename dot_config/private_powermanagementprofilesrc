@@ -1,9 +1,6 @@
 [AC]
 icon=battery-charging
 
-[AC][DPMSControl]
-idleTime=1200
-
 [AC][DimDisplay]
 idleTime=600000
 
@@ -12,16 +9,13 @@ lidAction=1
 powerButtonAction=8
 triggerLidActionWhenExternalMonitorPresent=false
 
-[AC][RunScript]
-idleTime=600000
-scriptCommand=/home/cch/.local/bin/ac-profile
-scriptPhase=0
+[AC][SuspendSession]
+idleTime=900000
+suspendThenHibernate=false
+suspendType=1
 
 [Battery]
 icon=battery-060
-
-[Battery][DPMSControl]
-idleTime=600
 
 [Battery][DimDisplay]
 idleTime=300000
@@ -31,10 +25,13 @@ lidAction=1
 powerButtonAction=8
 triggerLidActionWhenExternalMonitorPresent=false
 
-[Battery][RunScript]
-idleTime=600000
-scriptCommand=/home/cch/.local/bin/battery-profile
-scriptPhase=0
+[Battery][SuspendSession]
+idleTime=900000
+suspendThenHibernate=false
+suspendType=1
 
 [LowBattery]
 icon=battery-low
+
+[Migration]
+MigratedProfilesToPlasma6=powerdevilrc
