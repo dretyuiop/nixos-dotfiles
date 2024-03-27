@@ -365,6 +365,24 @@
    </metadata>
   </info>
  </separator>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/freedesktop/UDisks2/block_devices/sda2</UDI>
+    <isSystemItem>true</isSystemItem>
+    <uuid>3f32-27f5</uuid>
+   </metadata>
+  </info>
+ </separator>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/freedesktop/UDisks2/block_devices/sda1</UDI>
+    <isSystemItem>true</isSystemItem>
+    <uuid>8135-10ae</uuid>
+   </metadata>
+  </info>
+ </separator>
  <bookmark href="kdeconnect://178fd246_09e8_4ecf_ba07_98e186864608/">
   <title>POCO X3 Pro</title>
   <info>
@@ -372,7 +390,7 @@
     <bookmark:icon name="kdeconnect"/>
    </metadata>
    <metadata owner="http://www.kde.org">
-    <ID>1710673820/4</ID>
+    <ID>1711547069/0</ID>
    </metadata>
   </info>
  </bookmark>

@@ -14,6 +14,7 @@ ScrollFactor=0.75
 TapToClick=true
 
 [Libinput][9354][23343][XCTECH Wireless-Receiver]
+PointerAcceleration=0.000
 PointerAccelerationProfile=2
 
 [Mouse]

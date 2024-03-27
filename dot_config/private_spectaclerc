@@ -7,25 +7,21 @@ annotationToolType=2
 [General]
 autoSaveImage=true
 clipboardGroup=PostScreenshotCopyImage
-rememberLastRectangularRegion=Always
+rememberSelectionRect=Always
 
 [GuiConfig]
-cropRegion=782,238,562,710
-videoFormat=mp4
+selectionRect=473,122,662,835
 window-position=0,0
 
 [ImageSave]
-lastImageSaveLocation=file:///home/cch/Pictures/Screenshots/Screenshot_20240316_214317.png
+lastImageSaveAsLocation=file:///home/cch/Pictures/dmesg.png
+lastImageSaveLocation=file:///home/cch/Pictures/Screenshots/Screenshot_20240325_212843.png
 translatedScreenshotsFolder=Screenshots
 
 [KFileDialog Settings]
 Recent Files[$e]=dmesg.png,file:$HOME/Pictures/dmesg.png
 Recent URLs[$e]=file:$HOME/Pictures/
 detailViewIconSize=16
-
-[Save]
-lastSaveAsLocation=file:///home/cch/Pictures/dmesg.png
-lastSaveLocation=file:///home/cch/Pictures/Screenshot_20240228_234621.png
 
 [VideoSave]
 translatedScreencastsFolder=Screencasts

@@ -37,6 +37,7 @@ desktopchangeosdEnabled=false
 fix-wine-wechat-shadowEnabled=false
 minimizeallEnabled=true
 synchronizeskipswitcherEnabled=false
+thumbnailasideEnabled=true
 videowallEnabled=false
 windowgeometryinfoEnabled=true
 wobblywindowsEnabled=true

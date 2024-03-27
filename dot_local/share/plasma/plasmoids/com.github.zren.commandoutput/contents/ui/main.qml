@@ -1,10 +1,13 @@
-import QtQuick 2.1
-import QtQuick.Layouts 1.0
-import org.kde.plasma.plasmoid 2.0
-import org.kde.plasma.core 2.0 as PlasmaCore
-import org.kde.plasma.components 2.0 as PlasmaComponent
+import QtQuick
+import QtQuick.Layouts
 
-Item {
+import org.kde.kirigami as Kirigami
+import org.kde.plasma.plasmoid
+import org.kde.plasma.core as PlasmaCore
+import org.kde.plasma.components as PlasmaComponent
+import org.kde.plasma.plasma5support as Plasma5Support
+
+PlasmoidItem {
 	id: widget
 
 	// https://github.com/KDE/plasma-workspace/blob/master/dataengines/executable/executable.h
@@ -12,11 +15,11 @@ Item {
 	// https://github.com/KDE/plasma-framework/blob/master/src/declarativeimports/core/datasource.h
 	// https://github.com/KDE/plasma-framework/blob/master/src/declarativeimports/core/datasource.cpp
 	// https://github.com/KDE/plasma-framework/blob/master/src/plasma/scripting/dataenginescript.cpp
-	PlasmaCore.DataSource {
+	Plasma5Support.DataSource {
 		id: executable
 		engine: "executable"
 		connectedSources: []
-		onNewData: {
+		onNewData: (sourceName, data) => {
 			var exitCode = data["exit code"]
 			var exitStatus = data["exit status"]
 			var stdout = data["stdout"]
@@ -49,14 +52,16 @@ Item {
 		readonly property bool active: !!command
 		readonly property bool waitForCompletion: plasmoid.configuration.waitForCompletion
 		readonly property int interval: Math.max(0, plasmoid.configuration.interval)
-		readonly property string command: plasmoid.configuration.command || 'sleep 2 && echo "Test: $(date +%s)"'
+		readonly property string command: plasmoid.configuration.command || ''
+		readonly property string tooltipCommand: plasmoid.configuration.tooltipCommand || ''
 		readonly property bool clickEnabled: !!plasmoid.configuration.clickCommand
 		readonly property bool mousewheelEnabled: (plasmoid.configuration.mousewheelUpCommand || plasmoid.configuration.mousewheelDownCommand)
-		readonly property color textColor: plasmoid.configuration.textColor || theme.textColor
-		readonly property color outlineColor: plasmoid.configuration.outlineColor || theme.backgroundColor
+		readonly property color textColor: plasmoid.configuration.textColor || Kirigami.Theme.textColor
+		readonly property color outlineColor: plasmoid.configuration.outlineColor || Kirigami.Theme.backgroundColor
 		readonly property bool showOutline: plasmoid.configuration.showOutline
 
 		onCommandChanged: widget.runCommand()
+		onTooltipCommandChanged: widget.runCommand()
 		onIntervalChanged: {
 			// interval=0 stops the timer even with Timer.repeat=true, so we may
 			// need to restart the timer. Might as well restart the interval too.
@@ -185,43 +190,55 @@ Item {
 	}
 
 	property string outputText: ''
+	property string tooltipText: ''
+
+	function formatOutputText(stdout) {
+		var formattedText = stdout
+
+		// Newlines
+		if (plasmoid.configuration.replaceAllNewlines) {
+			formattedText = formattedText.replace(/\n/g, ' ').trim()
+		} else if (formattedText.length >= 1 && formattedText[formattedText.length-1] == '\n') {
+			formattedText = formattedText.substr(0, formattedText.length-1)
+		}
+
+		// Terminal Colors (Issue #7)
+		var state = {
+			html: false,
+			bold: false,
+			closeTags: [],
+		}
+		formattedText = formattedText.replace(/\033\[(\d+(;\d+)*)?m/g, function(match, p1, p2){
+			state.html = true
+			if (typeof p1 === 'string') {
+				return parseAnsiEscape(p1, state)
+			} else { // \033[m is Reset
+				return parseAnsiEscape('0', state)
+			}
+		})
+		formattedText += resetState(state)
+
+		// Format Newlines when in HTML mode
+		if (state.html) {
+			formattedText = formattedText.replace(/\n/g, '<br>')
+		}
+		return formattedText
+	}
+
 	Connections {
 		target: executable
-		onExited: {
-			if (cmd == config.command) {
-				var formattedText = stdout
-
-				// Newlines
-				if (plasmoid.configuration.replaceAllNewlines) {
-					formattedText = formattedText.replace(/\n/g, ' ').trim()
-				} else if (formattedText.length >= 1 && formattedText[formattedText.length-1] == '\n') {
-					formattedText = formattedText.substr(0, formattedText.length-1)
-				}
-
-				// Terminal Colors (Issue #7)
-				var state = {
-					html: false,
-					bold: false,
-					closeTags: [],
-				}
-				formattedText = formattedText.replace(/\033\[(\d+(;\d+)*)?m/g, function(match, p1, p2){
-					state.html = true
-					if (typeof p1 === 'string') {
-						return parseAnsiEscape(p1, state)
-					} else { // \033[m is Reset
-						return parseAnsiEscape('0', state)
-					}
-				})
-				formattedText += resetState(state)
-
-				// Format Newlines when in HTML mode
-				if (state.html) {
-					formattedText = formattedText.replace(/\n/g, '<br>')
-				}
+		function onExited(cmd, exitCode, exitStatus, stdout, stderr) {
+			if ((cmd == config.command) || (cmd == config.tooltipCommand)) {
+				var formattedText = formatOutputText(stdout)
 
 				// console.log('[commandoutput]', 'stdout', JSON.stringify(stdout))
 				// console.log('[commandoutput]', 'format', JSON.stringify(formattedText))
-				widget.outputText = formattedText
+
+				if (cmd == config.command) {
+					widget.outputText = formattedText
+				} else if (cmd == config.tooltipCommand) {
+					widget.tooltipText = formattedText
+				}
 
 				if (config.waitForCompletion) {
 					timer.restart()
@@ -233,6 +250,7 @@ Item {
 	function runCommand() {
 		// console.log('[commandoutput]', Date.now(), 'runCommand', config.command)
 		executable.exec(config.command)
+		executable.exec(config.tooltipCommand)
 	}
 
 	Timer {
@@ -255,8 +273,7 @@ Item {
 
 	Plasmoid.backgroundHints: plasmoid.configuration.showBackground ? PlasmaCore.Types.DefaultBackground : PlasmaCore.Types.NoBackground
 
-	Plasmoid.preferredRepresentation: Plasmoid.fullRepresentation
-	Plasmoid.fullRepresentation: Item {
+	fullRepresentation: Item {
 		id: panelItem
 
 		readonly property bool isHorizontal: plasmoid.formFactor == PlasmaCore.Types.Horizontal
@@ -268,7 +285,7 @@ Item {
 			if (isOnDesktop) {
 				return Math.ceil(output.contentWidth)
 			} else if (isHorizontal && plasmoid.configuration.useFixedWidth) {
-				return plasmoid.configuration.fixedWidth * units.devicePixelRatio
+				return plasmoid.configuration.fixedWidth * Kirigami.Units.devicePixelRatio
 			} else { // isHorizontal || isVertical
 				return Math.ceil(output.implicitWidth)
 			}
@@ -283,7 +300,7 @@ Item {
 			if (isOnDesktop) {
 				return Math.ceil(output.contentHeight)
 			} else if (isVertical && plasmoid.configuration.useFixedHeight) {
-				return plasmoid.configuration.fixedHeight * units.devicePixelRatio
+				return plasmoid.configuration.fixedHeight * Kirigami.Units.devicePixelRatio
 			} else { // isHorizontal || isVertical
 				return Math.ceil(output.implicitHeight)
 			}
@@ -309,7 +326,7 @@ Item {
 			}
 
 			property int wheelDelta: 0
-			onWheel: {
+			onWheel: (wheel) => {
 				var delta = wheel.angleDelta.y || wheel.angleDelta.x
 				wheelDelta += delta
 				// Magic number 120 for common "one click"
@@ -326,16 +343,16 @@ Item {
 			}
 		}
 
-		PlasmaCore.ToolTipArea {
-			anchors.fill: parent
-			subText: output.text
-			enabled: output.truncated
-		}
-
 		Text {
 			id: output
 			width: parent.width
 			height: parent.height
+
+			PlasmaCore.ToolTipArea {
+				anchors.fill: parent
+				mainText: widget.tooltipText
+				enabled: widget.tooltipText
+			}
 
 			text: widget.outputText
 
@@ -343,12 +360,11 @@ Item {
 			style: config.showOutline ? Text.Outline : Text.Normal
 			styleColor: config.outlineColor
 
-			linkColor: theme.linkColor
+			linkColor: Kirigami.Theme.linkColor
 			onLinkActivated: Qt.openUrlExternally(link)
 
-			font.pointSize: -1
-			font.pixelSize: plasmoid.configuration.fontSize * units.devicePixelRatio
-			font.family: plasmoid.configuration.fontFamily || theme.defaultFont.family
+			font.pointSize: plasmoid.configuration.fontSize
+			font.family: plasmoid.configuration.fontFamily || Kirigami.Theme.defaultFont.family
 			font.weight: plasmoid.configuration.bold ? Font.Bold : Font.Normal
 			font.italic: plasmoid.configuration.italic
 			font.underline: plasmoid.configuration.underline
@@ -373,4 +389,5 @@ Item {
 
 	}
 
+	preferredRepresentation: fullRepresentation
 }
