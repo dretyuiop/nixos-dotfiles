@@ -50,9 +50,10 @@
     mission-center
     haruna
     yt-dlp
+    nur.repos.xddxdd.wine-wechat
 
     # game
-    lutris-free
+    lutris
     mangohud
     heroic
     wineWowPackages.waylandFull
@@ -152,8 +153,8 @@
       shellAliases = {
         cat = "bat";
         cp = "cp -v";
-        hm = "rm /home/cch/.config/gtk-2.0/gtkrc && home-manager --impure";
-        hms = "rm /home/cch/.config/gtk-2.0/gtkrc && home-manager switch --impure";
+        hm = "rm -f /home/cch/.config/gtk-2.0/gtkrc && home-manager --impure";
+        hms = "rm -f /home/cch/.config/gtk-2.0/gtkrc && home-manager switch --impure";
         la = "eza --long --header --all --icons";
         ls = "eza --long --header --icons";
         mkdir = "mkdir -v";
@@ -275,7 +276,7 @@
         ExecStartPre = "${pkgs.coreutils}/bin/touch /home/cch/.local/aria2/aria2.session";
       };
       Install = {
-        WantedBy = "default.target";
+        WantedBy = [ "default.target" ];
       };
     };
   };
@@ -295,6 +296,18 @@
     enable = true;
     style.name = "kvantum";
 #       platformTheme = "kde";
+  };
+
+  nixpkgs.config = {
+    packageOverrides = pkgs: {
+      nur = import (builtins.fetchTarball "https://github.com/nix-community/NUR/archive/master.tar.gz") {
+        inherit pkgs;
+      };
+    };
+    allowUnfree = true;
+    permittedInsecurePackages = [
+      "openssl-1.1.1w"
+    ];
   };
 
   # The state version is required and should stay at the version you
