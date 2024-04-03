@@ -1,7 +1,6 @@
-#!/usr/bin/env bash
+#!/bin/sh
 
 mkdir -p ~/Git
 mkdir -p ~/Games
 mkdir -p ~/torrents
 mkdir -p ~/VM
-mkdir -p ~/Nextcloud
