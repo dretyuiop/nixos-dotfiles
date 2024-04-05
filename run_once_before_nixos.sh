@@ -7,11 +7,10 @@ echo $root_password > ./root_password
 
 # get the files
 cd ~/.config
-git clone git@github.com:dretyuiop/nixos.git
-mv ./nixos ./home-manager
+git clone git@github.com:dretyuiop/nixos.git home-manager
 
 # link configuration.nix
-cat ./root_password | sudo -S ln -s ./home-manager/configuration.nix /etc/nixos/configuration.nix
+cat ./root_password | sudo -S ln -s $HOME/.config/home-manager/system/configuration.nix /etc/nixos/configuration.nix
 
 # set up channels
 cat ./root_password | sudo -S nix-channel --remove nixos
@@ -22,5 +21,6 @@ nix-channel --add https://github.com/nix-community/home-manager/archive/master.t
 nix-channel --add https://github.com/pjones/plasma-manager/archive/master.tar.gz plasma-manager
 nix-channel --update
 
+# rebuild
 cat ./root_password | sudo -S nixos-rebuild
-nix --experimental-features 'nix-command flakes' run github:nix-community/home-manager#home-manager switch --impure
+nix --experimental-features 'nix-command flakes' run github:nix-community/home-manager#home-manager switch --impure --file $HOME/.config/home-manager/home-manager/home.nix
